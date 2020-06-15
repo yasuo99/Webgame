@@ -1,0 +1,78 @@
+﻿@model DichVuGame.Models.Game
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Game</h4>
+<hr />
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <div class="p-4 border rounded">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ID" />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Gamename" class="control-label"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Gamename" class="form-control" />
+                <span asp-validation-for="Gamename" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="GamePoster" class="control-label"></label>
+            </div>
+            <div class="col-5">
+                <input type="file" name="files" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Release" class="control-label"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Release" class="form-control" />
+                <span asp-validation-for="Release" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="StudioID" class="control-label"></label>
+            </div>
+            <div class="col-5">
+                <select asp-for="StudioID" class="form-control" asp-items="ViewBag.StudioID"></select>
+                <span asp-validation-for="StudioID" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Price" class="control-label"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Available" class="control-label"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Available" class="form-control" />
+                <span asp-validation-for="Available" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

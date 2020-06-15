@@ -1,0 +1,26 @@
+﻿@model DichVuGame.Models.ViewModels.GamesViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+<hr />
+<div class="p-4 border rounded">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <label>Game: @Model.Game.Gamename</label>
+        <input hidden asp-for="@Model.Game.ID" />
+        <div class="form-group row">
+            <div class="col-3">
+                <label class="custom-control-label" asp-for="@Model.GameDemo.Demo"></label>
+            </div>
+            <div class="col-6">
+                <input name="files" type="file" accept=".mp4,.jpg,.png,.avi,."/>
+            </div>
+        </div>
+        <button type="submit" value="Tạo" class="btn btn-primary" ></button>
+    </form>
+</div>
+<div>
+    <a class="btn btn-secondary" asp-action="Index">Quay lại</a>
+</div>
+

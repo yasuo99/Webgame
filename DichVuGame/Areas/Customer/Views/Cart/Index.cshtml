@@ -1,0 +1,16 @@
+﻿@model List<DichVuGame.Models.ViewModels.CartViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+<div class="container">
+    @foreach(var item in Model)
+    {
+        <div>
+            <label>@item.Game.Gamename</label>
+        </div>
+    }
+</div>
+

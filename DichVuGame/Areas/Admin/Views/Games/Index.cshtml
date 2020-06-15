@@ -1,0 +1,70 @@
+﻿@model DichVuGame.Models.ViewModels.GamesViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+<div class="row">
+    <div class="col-sm-8">Danh sách game</div>
+    <div class="col-sm-4"><a class="btn btn-primary" asp-area="Admin" asp-controller="Games" asp-action="Create">Thêm game mới</a></div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.GamePoster)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.Gamename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.Release)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.Studio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.Available)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Games) {
+        <tr>
+            <td>
+                <img src="@item.GamePoster" width="150" height="150"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gamename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Release)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.Studio.Studioname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Available)
+            </td>
+            <td>
+                <div class="btn-group">
+                    <a type="button" class="btn btn-primary" asp-action="Create" asp-controller="GameDemos" asp-route-id="@item.ID"><i class="fas fa-photo-video"></i></a>
+                    <a type="button" class="btn btn-primary" asp-action="Create" asp-controller="GameAccounts" asp-route-id="@item.ID"><i class="far fa-plus-square"></i></a>
+                    <a type="button" class="btn btn-success" asp-action="Edit" asp-controller="Games" asp-route-id="@item.ID"><i class="fas fa-edit"></i></a>
+                    <a type="button" class="btn btn-info" asp-action="Details" asp-controller="Games" asp-route-id="@item.ID"><i class="far fa-list-alt"></i></a>
+                    <a type="button" class="btn btn-danger" asp-action="Delete" asp-controller="Games" asp-route-id="@item.ID"><i class="fas fa-trash-alt"></i></a>
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

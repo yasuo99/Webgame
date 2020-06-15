@@ -1,0 +1,96 @@
+﻿@page
+@model RegisterModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Register";
+}
+<br />
+<br />
+<div class="row">
+    <div class="col-md-3 offset-md-4 form-group">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h4>Đăng ký tài khoản</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                 <input asp-for="Input.Username" placeholder="Tài khoản" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.Email" placeholder="Địa chỉ Email" class="form-control" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.Password" placeholder="Mật khẩu" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.ConfirmPassword" placeholder="Xác nhận mật khẩu" class="form-control" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.Fullname" placeholder="Họ và tên" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.Phone" placeholder="Số điện thoại" class="form-control" />
+                <span asp-validation-for="Input.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group row">
+                <div class="col-2">
+                    <label>Nam</label><span>
+                        <input asp-for="Input.Sex" type="radio" value="Nam" checked="checked" class="form-control" />
+                    </span>
+                </div>
+                <div class="col-2">
+                    <label>Nữ</label>
+                    <span><input asp-for="Input.Sex" type="radio" value="Nữ" class="form-control" /></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <input asp-for="Input.Address" placeholder="Địa chỉ" class="form-control" />
+            </div>
+            @if (User.IsInRole(DichVuGame.Utility.Helper.ADMIN_ROLE))
+            {
+                <div class="form-group">
+                    <label>Nhân viên quản lý</label>
+                    <input asp-for="Input.IsManager" type="checkbox" class="form-control" />
+                </div>
+            }
+            <button style="margin-left: 90px;background-color:#fdd835;" type="submit" class="btn">Đăng ký</button>
+        </form>
+    </div>
+    @*<div class="col-md-6 col-md-offset-2">
+            <section>
+                <h4>Use another service to register.</h4>
+                <hr />
+                @{
+                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                    {
+                        <div>
+                            <p>
+                                There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                                for details on setting up this ASP.NET application to support logging in via external services.
+                            </p>
+                        </div>
+                    }
+                    else
+                    {
+                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                            <div>
+                                <p>
+                                    @foreach (var provider in Model.ExternalLogins)
+                                    {
+                                        <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    }
+                                </p>
+                            </div>
+                        </form>
+                    }
+                }
+            </section>
+        </div>*@
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

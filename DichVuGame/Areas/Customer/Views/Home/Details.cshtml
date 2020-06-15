@@ -1,0 +1,20 @@
+﻿@model DichVuGame.Models.ViewModels.GamesViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<form asp-action="DetailsPOST" asp-controller="Home" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="@Model.Game.GamePoster" width="150" height="150" />
+            </div>
+            <div class="col-6">
+                <h4>@Model.Game.Gamename</h4>
+                <a asp-controller="Home">@Model.Game.Studio.Studioname</a>
+                <button type="submit" class="btn btn-primary">Thêm vào giỏ </button>
+            </div>
+        </div>
+    </div>
+</form>

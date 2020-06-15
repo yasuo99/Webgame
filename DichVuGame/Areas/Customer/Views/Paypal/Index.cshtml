@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+<h3>Nạp Bcoin vào tài khoản</h3>
+<h3>Phương thức nạp tiền 1 Bcoin = 1 VNĐ</h3>
+<div class="container form-group">
+    <form method="post" asp-action="TopupWithPaypal" asp-controller="Paypal">
+       <label>Nhập số tiền muốn nạp</label>
+        <input name="topupAmount" placeholder="Tối thiểu 22.000 VNĐ" min="22000" max="9999999999999" value="22000" class="form-control"/><span></span>
+        <button type="submit" class="btn btn-primary">Nạp Bcoin qua Paypal</button>
+    </form>
+</div>
+
