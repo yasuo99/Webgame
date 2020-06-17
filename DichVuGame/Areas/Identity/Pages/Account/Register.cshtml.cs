@@ -119,9 +119,9 @@ namespace DichVuGame.Areas.Identity.Pages.Account
                         await _userManager.AddToRoleAsync(user, Helper.CUSTOMER_ROLE);
                     }
                     await _userManager.UpdateAsync(user);
-                    _logger.LogInformation("User created a new account with password.");
+                    _logger.LogInformation("Người dùng đã tạo tài khoản mới.");
 
-                    return RedirectToPage("Login");
+                    return RedirectToPage("Đăng nhập");
                 }
                 foreach (var error in result.Errors)
                 {
