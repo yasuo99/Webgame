@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using ThuVienDienTu.Data;
 
 namespace DichVuGame
 {
@@ -33,6 +34,7 @@ namespace DichVuGame
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultUI().AddDefaultTokenProviders();
+            services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddControllersWithViews();
             services.AddRazorPages();
@@ -45,7 +47,8 @@ namespace DichVuGame
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        [Obsolete]
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -62,7 +65,7 @@ namespace DichVuGame
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
-
+            dbInitializer.Initialize();
             app.UseAuthentication();
             app.UseAuthorization();
 
