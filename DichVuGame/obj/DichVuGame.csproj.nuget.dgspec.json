@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\T-4-12-2019\\DoAnTMDT\\DichVuGame\\DichVuGame.csproj": {}
+    "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj": {}
   },
   "projects": {
-    "E:\\T-4-12-2019\\DoAnTMDT\\DichVuGame\\DichVuGame.csproj": {
+    "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\T-4-12-2019\\DoAnTMDT\\DichVuGame\\DichVuGame.csproj",
+        "projectUniqueName": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
         "projectName": "DichVuGame",
-        "projectPath": "E:\\T-4-12-2019\\DoAnTMDT\\DichVuGame\\DichVuGame.csproj",
+        "projectPath": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "E:\\T-4-12-2019\\DoAnTMDT\\DichVuGame\\obj\\",
+        "outputPath": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",

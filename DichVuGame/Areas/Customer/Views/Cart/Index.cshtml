@@ -5,12 +5,30 @@
 
 <br />
 <br />
-<div class="container">
-    @foreach(var item in Model)
-    {
-        <div>
-            <label>@item.Game.Gamename</label>
+
+@if (Model.Count > 0)
+{
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div>
+                <label>@item.Game.Gamename</label>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="container border border-light" style="height: 400px;background-color:white">
+        <br />
+        <br />
+        <br />
+        <img class="col-sm-5 offset-sm-4" src="https://divineshop.vn/assets/image/empty-cart.png" />
+        <div class="col-sm-5 offset-sm-5">Oop! Giỏ hàng của bạn đang trống</div>
+        <div class="col-sm-6 offset-sm-5">
+            <a asp-action="Index" asp-controller="Home" class="nav-link btn" style="background-color:#fdd835;border-radius:5px;text-align:center;width: 225px">Mua ngay</a>
         </div>
-    }
-</div>
+    </div>
+}
+
 
