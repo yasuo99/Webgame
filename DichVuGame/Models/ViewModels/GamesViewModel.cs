@@ -9,6 +9,7 @@ namespace DichVuGame.Models.ViewModels
     public class GamesViewModel
     {
         public Game Game { get; set; }
+        public int Amount { get; set; }
         public Code Code { get; set; }
         public List<Game> Games { get; set; }
         public List<GameTag> GameTags { get; set; }

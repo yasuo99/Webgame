@@ -12,8 +12,9 @@
             </div>
             <div class="col-6">
                 <h4>@Model.Game.Gamename</h4>
-                <a asp-controller="Home">@Model.Game.Studio.Studioname</a>
-                <button type="submit" class="btn btn-primary">Thêm vào giỏ </button>
+                <h6>@Model.Game.Studio.Studioname</h6>
+                <input type="number" min="1" max="10" asp-for="@Model.Amount"/>
+                <button type="submit" asp-route-id="@Model.Game.ID" class="btn btn-primary">Thêm vào giỏ </button>
             </div>
         </div>
     </div>

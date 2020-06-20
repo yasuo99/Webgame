@@ -30,6 +30,7 @@ namespace DichVuGame.Controllers
             _db = db;
             gamesVM = new GamesViewModel()
             {
+                Game = new Game(),
                 Games = new List<Game>(),
                 GameTags = new List<GameTag>(),
                 GameDemos = new List<GameDemo>()
@@ -37,12 +38,17 @@ namespace DichVuGame.Controllers
         }
 
         public async Task<IActionResult> Index()
-        {
+        {            
+            List<CartViewModel> lstCart = HttpContext.Session.Get<List<CartViewModel>>("ShoppingCartSession");
+            if (lstCart == null)
+            {
+                lstCart = new List<CartViewModel>();
+            }
+            HttpContext.Session.Set("ShoppingCartSession", lstCart);
             var games = await _db.Games.Include(u => u.Studio).ToListAsync();
             gamesVM.Games = games;
             return View(gamesVM);
         }
-
         public IActionResult Privacy()
         {
             return View();
@@ -54,9 +60,10 @@ namespace DichVuGame.Controllers
             {
                 lstCart = new List<CartViewModel>();
             }
-            var game = _db.Games.Where(u => u.ID == id).Include(u =>u.Studio).FirstOrDefault();
+            HttpContext.Session.Set("ShoppingCartSession", lstCart);
+            var game = await _db.Games.Where(u => u.ID == id).Include(u =>u.Studio).FirstOrDefaultAsync();
             gamesVM.Game = game;
-            return View();
+            return View(gamesVM);
         }
         [HttpPost, ActionName("Details")]
         [ValidateAntiForgeryToken]
@@ -67,33 +74,64 @@ namespace DichVuGame.Controllers
             {
                 lstCart = new List<CartViewModel>();
             }
-            var game = _db.Games.Where(u => u.ID == id).FirstOrDefault();
-            CartViewModel cartVM = new CartViewModel()
+            bool alreadyInCart = false;
+            foreach(var item in lstCart)
             {
-                Game = game
-            };
-            lstCart.Add(cartVM);
-            return RedirectToAction("Index", "Cart", new { area = "Customer" });
+                if(item.Game.ID == id)
+                {
+                    item.Amount += gamesVM.Amount;
+                    alreadyInCart = true;
+                    break;
+                }
+            }
+            if (!alreadyInCart)
+            {
+                var game = _db.Games.Where(u => u.ID == id).FirstOrDefault();
+                lstCart.Add(new CartViewModel()
+                {
+                    Game = game,
+                    Amount = gamesVM.Amount
+                });
+            }
+            HttpContext.Session.Set("ShoppingCartSession", lstCart);
+            return RedirectToAction("Details", "Home", new { id = id });
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        public IActionResult AddToCart(int id)
+        public async Task<IActionResult> AddToCart(int id)
         {
+            bool alreadyInCart = false;
             var game = _db.Games.Where(u => u.ID == id).FirstOrDefault();
             List<CartViewModel> lstCart = HttpContext.Session.Get<List<CartViewModel>>("ShoppingCartSession");
             if(lstCart == null)
             {
                 lstCart = new List<CartViewModel>();
             }
-            lstCart.Add(new CartViewModel()
+            foreach(var item in lstCart)
             {
-                Game = game
-            });
+                if(item.Game.ID == id)
+                {
+                    item.Amount++;
+                    alreadyInCart = true;
+                    break;
+                }
+            }
+            if(!alreadyInCart)
+            {
+                lstCart.Add(new CartViewModel()
+                {
+                    Game = game,
+                    Amount = 1
+                });
+            }
+            HttpContext.Session.Set("ShoppingCartSession", lstCart);
             ViewBag.AddToCart = "Thành công: Bạn đã thêm " +game.Gamename + " vào giỏ hàng";
-            return View(nameof(Index));
+            var games = await _db.Games.Include(u => u.Studio).ToListAsync();
+            gamesVM.Games = games;
+            return View(nameof(Index),gamesVM);
         }
         public void CheckTimeOut()
         {

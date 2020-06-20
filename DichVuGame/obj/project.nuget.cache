@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9WF1mcuM16nBkbzkgwMxDkGR0SihUwzuaxgi2H8fa+HxQnzwCVUS6yC3IsA3Z5cKbL5uo9vpZiWZbWuo6TWt3g==",
+  "dgSpecHash": "sCKI87yK4zOdnQlea2/rVasAegOTL7Th23d2woAktT9cEL+KsivmROximUfACitEtk7jjq2Fm6N848orwX4pvw==",
   "success": true,
-  "projectFilePath": "E:\\T-4-12-2019\\DoAnTMDT\\DichVuGame\\DichVuGame.csproj",
+  "projectFilePath": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thanh\\.nuget\\packages\\bootstrap\\4.4.1\\bootstrap.4.4.1.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",

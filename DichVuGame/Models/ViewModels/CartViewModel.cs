@@ -8,6 +8,7 @@ namespace DichVuGame.Models.ViewModels
     public class CartViewModel
     {
         public Game Game { get; set; }
+        public int Amount { get; set; }
         public List<Game> Games { get; set; }
         public GameAccount GameAccount { get; set; }
     }
