@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-DichVuGame-BCD33A19-B9DE-4781-B2AE-9E6EA476719A")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DichVuGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

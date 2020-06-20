@@ -33,6 +33,9 @@
 
   <ItemGroup>
     <Folder Include="Data\Migrations\" />
+    <Folder Include="wwwroot\images\GameImage\" />
+    <Folder Include="wwwroot\images\GameDemo\" />
+    <Folder Include="wwwroot\images\Default\" />
   </ItemGroup>
 
 </Project>
