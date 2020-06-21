@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace DichVuGame.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class GameDemosController : Controller
     {
         private ApplicationDbContext _db;
@@ -43,11 +44,11 @@ namespace DichVuGame.Areas.Admin.Controllers
         }
         [HttpPost,ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreatePOST()
+        public async Task<IActionResult> CreatePOST(int id)
         {
             if(ModelState.IsValid)
             {
-                GamesVM.GameDemo.GameID = GamesVM.Game.ID;
+                GamesVM.GameDemo.GameID = id;
                 _db.Add(GamesVM.GameDemo);
                 var webRootPath = _hostEnvironment.WebRootPath;
                 var files = HttpContext.Request.Form.Files;
@@ -55,13 +56,25 @@ namespace DichVuGame.Areas.Admin.Controllers
                 {
                     var path = Path.Combine(webRootPath, SD.GameDemoFolder);
                     var extension = Path.GetExtension(files[0].FileName);
-                    using(var fileStream = new FileStream(Path.Combine(path,GamesVM.GameDemo.ID + extension), FileMode.Create))
+                    if(extension.Contains("mp4") || extension.Contains("avi") || extension.Contains(".jpg") || extension.Contains("png"))
                     {
-                        files[0].CopyTo(fileStream);
+                        using (var fileStream = new FileStream(Path.Combine(path, GamesVM.GameDemo.ID + extension), FileMode.Create))
+                        {
+                            files[0].CopyTo(fileStream);
+                        }
+                        GamesVM.GameDemo.Demo = @"\" + SD.GameDemoFolder + @"\" + GamesVM.GameDemo.ID + extension;
+                        if(extension.Contains("mp4") || extension.Contains("avi"))
+                        {
+                            GamesVM.GameDemo.IsVideo = true;
+                        }
+                        else
+                        {
+                            GamesVM.GameDemo.IsVideo = false;
+                        }
                     }
-                    GamesVM.GameDemo.Demo = @"\" + SD.GameDemoFolder + @"\" + GamesVM.GameDemo.ID + extension;
                 }
                 await _db.SaveChangesAsync();
+                return View(nameof(Index));
             }              
             return View(GamesVM);
         }

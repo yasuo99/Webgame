@@ -26,10 +26,16 @@ namespace DichVuGame.Data
         public DbSet<SystemRequirement> SystemRequirements { get; set; }
         public DbSet<GameDemo> Demos { get; set; }
         public DbSet<RentalHistory> RentalHistories { get; set; }
+        public DbSet<Comment> Comments { get; set; }    
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<GameComment> GameComments { get; set; }
+        public DbSet<GameReview> GameReviews { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<GameTag>().HasKey(key => new { key.GameID, key.TagID });
+            modelBuilder.Entity<GameReview>().HasKey(key => new { key.GameID, key.ReviewID });
+            modelBuilder.Entity<GameComment>().HasKey(key => new { key.GameID, key.CommentID });
         }
     }
 }

@@ -9,15 +9,16 @@
     <form asp-action="Create" method="post" enctype="multipart/form-data">
         <label>Game: @Model.Game.Gamename</label>
         <input hidden asp-for="@Model.Game.ID" />
+        <input hidden asp-for="GameDemo.Demo" value="demo" />
         <div class="form-group row">
             <div class="col-3">
-                <label class="custom-control-label" asp-for="@Model.GameDemo.Demo"></label>
+                <label asp-for="@Model.GameDemo.Demo"></label>
             </div>
             <div class="col-6">
-                <input name="files" type="file" accept=".mp4,.jpg,.png,.avi,."/>
+                <input name="files" type="file"/>
             </div>
         </div>
-        <button type="submit" value="Tạo" class="btn btn-primary" ></button>
+        <button type="submit" class="btn btn-primary" >Create</button>
     </form>
 </div>
 <div>
