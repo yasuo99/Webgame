@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Extensions.Logging;
-
+using System.Net.Mail;
 namespace DichVuGame.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
@@ -120,7 +120,15 @@ namespace DichVuGame.Areas.Identity.Pages.Account
                     }
                     await _userManager.UpdateAsync(user);
                     _logger.LogInformation("User created a new account with password.");
+                    string confirmationToken = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
+                    string confirmationLink = Url.Action("ConfirmEmail",
+                        "Account",new { userid = user.Id, token = confirmationToken },
+                        protocol: HttpContext.Request.Scheme);
 
+                    SmtpClient client = new SmtpClient();
+                    client.DeliveryMethod = SmtpDeliveryMethod.SpecifiedPickupDirectory;
+                    client.PickupDirectoryLocation = @"C:\Test";
+                    client.Send("test@localhost", user.Email, "Confirm your email", confirmationLink);
                     return RedirectToPage("Login");
                 }
                 foreach (var error in result.Errors)

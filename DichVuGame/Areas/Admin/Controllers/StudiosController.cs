@@ -20,7 +20,7 @@ namespace DichVuGame.Areas.Admin.Controllers
     {
         private readonly ApplicationDbContext _context;
         public IWebHostEnvironment _hostEnvironment;
-        public StudiosController(ApplicationDbContext context,IWebHostEnvironment hostingEnvironment)
+        public StudiosController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
         {
             _context = context;
             _hostEnvironment = hostingEnvironment;
@@ -72,7 +72,7 @@ namespace DichVuGame.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
                 var webRootPath = _hostEnvironment.WebRootPath;
                 var files = HttpContext.Request.Form.Files;
-                if(files.Count > 0)
+                if (files.Count > 0)
                 {
                     var path = Path.Combine(webRootPath, SD.StudioImageFolder);
                     var extension = Path.GetExtension(files[0].FileName);
@@ -85,7 +85,7 @@ namespace DichVuGame.Areas.Admin.Controllers
                 else
                 {
                     var path = Path.Combine(webRootPath, SD.DefaultStudioImage);
-                    System.IO.File.Copy(path,webRootPath + @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg");
+                    System.IO.File.Copy(path, webRootPath + @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg");
                     studio.StudioLogo = @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg";
                 }
                 await _context.SaveChangesAsync();
@@ -128,25 +128,25 @@ namespace DichVuGame.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(studio);
-                    await _context.SaveChangesAsync();
                     var webRootPath = _hostEnvironment.WebRootPath;
                     var files = HttpContext.Request.Form.Files;
-                    if(files.Count > 0)
+                    if (files.Count > 0)
                     {
-                        if(studio.StudioLogo != null)
+                        if (studio.StudioLogo != null)
                         {
                             var old = webRootPath + @"" + studio.StudioLogo;
                             System.IO.File.Delete(old);
                         }
                         var path = Path.Combine(webRootPath, SD.StudioImageFolder);
                         var extension = Path.GetExtension(files[0].FileName);
-                        using(var fileStream = new FileStream(Path.Combine(path,studio.ID + extension),FileMode.Create))
+                        using (var fileStream = new FileStream(Path.Combine(path, studio.ID + extension), FileMode.Create))
                         {
                             files[0].CopyTo(fileStream);
                         }
                         studio.StudioLogo = @"\" + SD.StudioImageFolder + @"\" + studio.ID + extension;
                     }
+                    _context.Update(studio);
+                    await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {

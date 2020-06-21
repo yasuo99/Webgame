@@ -13,6 +13,7 @@
     <div class="p-4 border rounded">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <input type="hidden" asp-for="ID" />
+        <input asp-for="GamePoster" hidden />
         <div class="form-group row">
             <div class="col-3">
                 <label asp-for="Gamename" class="control-label"></label>
@@ -27,7 +28,9 @@
                 <label asp-for="GamePoster" class="control-label"></label>
             </div>
             <div class="col-5">
+                
                 <input type="file" name="files" />
+                <img src="@Model.GamePoster" width="150" height="150" />
             </div>
         </div>
         <div class="form-group row">

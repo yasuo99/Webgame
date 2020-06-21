@@ -142,8 +142,7 @@ namespace DichVuGame.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-
-            var game = await _context.Games.FindAsync(id);
+            var game = await _context.Games.Where(u => u.ID == id).FirstOrDefaultAsync();
             if (game == null)
             {
                 return NotFound();
@@ -155,9 +154,9 @@ namespace DichVuGame.Areas.Admin.Controllers
         // POST: Admin/Games/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost,ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Gamename,Release,StudioID,Price,Available,SystemRequirementID")] Game game)
+        public async Task<IActionResult> EditPOST(int id, [Bind("ID,Gamename,GamePoster,Release,StudioID,Price,Available")] Game game)
         {
             if (id != game.ID)
             {
@@ -169,8 +168,7 @@ namespace DichVuGame.Areas.Admin.Controllers
                 try
                 {
                     var webRootPath = _hostingEnvironment.WebRootPath;
-                    var files = HttpContext.Request.Form.Files;
-                    _context.Update(game);
+                    var files = HttpContext.Request.Form.Files;         
                     if (files.Count > 0)
                     {
                         if (game.GamePoster != null)

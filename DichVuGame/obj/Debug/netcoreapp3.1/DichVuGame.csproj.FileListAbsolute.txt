@@ -949,9 +949,6 @@ D:\New folder (3)\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\l
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csprojAssemblyReference.cache
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfoInputs.cache
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfo.cs
-D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CoreCompileInputs.cache
-D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cs
-D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cache
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cache
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cs
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.input.cache
@@ -1062,3 +1059,9 @@ D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebasset
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.dll
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.pdb
 D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.genruntimeconfig.cache
+D:\New folder (3)\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\New folder (3)\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\New folder (3)\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CoreCompileInputs.cache
+D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder (3)\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cache

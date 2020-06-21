@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DichVuGame.Data;
 using DichVuGame.Models;
+using DichVuGame.Models.ViewModels;
 
 namespace DichVuGame.Areas.Admin.Controllers
 {
@@ -14,10 +15,17 @@ namespace DichVuGame.Areas.Admin.Controllers
     public class GameAccountsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        [BindProperty]
+        public GameAccountViewModel GameAccountVM { get; set; }
 
         public GameAccountsController(ApplicationDbContext context)
         {
             _context = context;
+            GameAccountVM = new GameAccountViewModel()
+            {
+                Game = new Game(),
+                GameAccount = new GameAccount()
+            };
         }
 
         // GET: Admin/GameAccounts
@@ -47,10 +55,10 @@ namespace DichVuGame.Areas.Admin.Controllers
         }
 
         // GET: Admin/GameAccounts/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create(int? id)
         {
-            ViewData["GameID"] = new SelectList(_context.Games, "ID", "Gamename");
-            return View();
+            GameAccountVM.Game = await _context.Games.Where(u => u.ID == id).FirstOrDefaultAsync();
+            return View(GameAccountVM);
         }
 
         // POST: Admin/GameAccounts/Create
@@ -58,16 +66,17 @@ namespace DichVuGame.Areas.Admin.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,GameID,Username,Password,Available")] GameAccount gameAccount)
+        public async Task<IActionResult> Create(int id)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(gameAccount);
+                GameAccountVM.GameAccount.GameID = GameAccountVM.Game.ID;
+                _context.Add(GameAccountVM.GameAccount);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["GameID"] = new SelectList(_context.Games, "ID", "Gamename", gameAccount.GameID);
-            return View(gameAccount);
+            ViewData["GameID"] = new SelectList(_context.Games, "ID", "Gamename", GameAccountVM.GameAccount.GameID);
+            return View(GameAccountVM);
         }
 
         // GET: Admin/GameAccounts/Edit/5
