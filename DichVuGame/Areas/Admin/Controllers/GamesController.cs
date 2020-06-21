@@ -29,10 +29,10 @@ namespace DichVuGame.Areas.Admin.Controllers
             _hostingEnvironment = hostEnvironment;
             GamesViewModel = new GamesViewModel()
             {
-                Countries = _context.Countries.ToList(),
-                GameTags = _context.GameTags.ToList(),
-                Studios = _context.Studios.ToList(),
-                Games = _context.Games.ToList(),
+                Countries = _context.Countries.AsNoTracking().ToList(),
+                GameTags = _context.GameTags.AsNoTracking().ToList(),
+                Studios = _context.Studios.AsNoTracking().ToList(),
+                Games = _context.Games.AsNoTracking().ToList(),
                 Game = new Game(),
                 Studio = new Studio(),
                 SystemRequirement = new SystemRequirement()
@@ -184,6 +184,7 @@ namespace DichVuGame.Areas.Admin.Controllers
                         }
                         game.GamePoster = @"\" + SD.GameImageFolder + @"\" + game.ID + extension;
                     }
+                    _context.Update(game);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -229,7 +230,10 @@ namespace DichVuGame.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var game = await _context.Games.FindAsync(id);
-            System.IO.File.Delete(_hostingEnvironment.WebRootPath + @"" + game.GamePoster);
+            if(game.GamePoster != null)
+            {
+                System.IO.File.Delete(_hostingEnvironment.WebRootPath + @"" + game.GamePoster);
+            }
             _context.Games.Remove(game);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

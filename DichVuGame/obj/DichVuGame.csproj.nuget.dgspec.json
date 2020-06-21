@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj": {}
+    "C:\\Users\\Thanh\\Documents\\New folder (3)\\New folder\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj": {}
   },
   "projects": {
-    "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj": {
+    "C:\\Users\\Thanh\\Documents\\New folder (3)\\New folder\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
+        "projectUniqueName": "C:\\Users\\Thanh\\Documents\\New folder (3)\\New folder\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
         "projectName": "DichVuGame",
-        "projectPath": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
+        "projectPath": "C:\\Users\\Thanh\\Documents\\New folder (3)\\New folder\\WebGame_TMDT\\DichVuGame\\DichVuGame.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder (3)\\WebGame_TMDT\\DichVuGame\\obj\\",
+        "outputPath": "C:\\Users\\Thanh\\Documents\\New folder (3)\\New folder\\WebGame_TMDT\\DichVuGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
