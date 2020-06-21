@@ -49,6 +49,17 @@ namespace DichVuGame.Controllers
             gamesVM.Games = games;
             return View(gamesVM);
         }
+        public async Task<IActionResult> Search(string q = null)
+        {
+            if(q != null)
+            {
+                var queryGames = await _db.Games.Where(u => u.Gamename.ToLower().Trim().Contains(q.ToLower().Trim())).ToListAsync();
+                gamesVM.Games = queryGames;
+                return View(nameof(Index),gamesVM);
+
+            }
+            return RedirectToAction(nameof(Index));
+        }
         public IActionResult Privacy()
         {
             return View();

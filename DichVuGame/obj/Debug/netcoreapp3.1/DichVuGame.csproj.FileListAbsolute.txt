@@ -1604,3 +1604,4 @@ C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Di
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.pdb
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.genruntimeconfig.cache
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameDemos\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
