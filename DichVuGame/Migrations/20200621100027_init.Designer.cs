@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DichVuGame.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200612153452_init")]
+    [Migration("20200621100027_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,6 +47,29 @@ namespace DichVuGame.Migrations
                     b.HasIndex("OrderID");
 
                     b.ToTable("Codes");
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.Comment", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ApplicationUserID")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CommentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserComment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ApplicationUserID");
+
+                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("DichVuGame.Models.Country", b =>
@@ -128,6 +151,21 @@ namespace DichVuGame.Migrations
                     b.ToTable("GameAccounts");
                 });
 
+            modelBuilder.Entity("DichVuGame.Models.GameComment", b =>
+                {
+                    b.Property<int>("GameID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CommentID")
+                        .HasColumnType("int");
+
+                    b.HasKey("GameID", "CommentID");
+
+                    b.HasIndex("CommentID");
+
+                    b.ToTable("GameComments");
+                });
+
             modelBuilder.Entity("DichVuGame.Models.GameDemo", b =>
                 {
                     b.Property<int>("ID")
@@ -149,6 +187,21 @@ namespace DichVuGame.Migrations
                     b.HasIndex("GameID");
 
                     b.ToTable("Demos");
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.GameReview", b =>
+                {
+                    b.Property<int>("GameID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ReviewID")
+                        .HasColumnType("int");
+
+                    b.HasKey("GameID", "ReviewID");
+
+                    b.HasIndex("ReviewID");
+
+                    b.ToTable("GameReviews");
                 });
 
             modelBuilder.Entity("DichVuGame.Models.GameTag", b =>
@@ -229,6 +282,29 @@ namespace DichVuGame.Migrations
                     b.HasIndex("GameAccountID");
 
                     b.ToTable("RentalHistories");
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.Review", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ApplicationUserID")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("UserReview")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Vote")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("ApplicationUserID");
+
+                    b.ToTable("Reviews");
                 });
 
             modelBuilder.Entity("DichVuGame.Models.Studio", b =>
@@ -566,6 +642,13 @@ namespace DichVuGame.Migrations
                         .HasForeignKey("OrderID");
                 });
 
+            modelBuilder.Entity("DichVuGame.Models.Comment", b =>
+                {
+                    b.HasOne("DichVuGame.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserID");
+                });
+
             modelBuilder.Entity("DichVuGame.Models.Game", b =>
                 {
                     b.HasOne("DichVuGame.Models.Studio", "Studio")
@@ -584,11 +667,41 @@ namespace DichVuGame.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("DichVuGame.Models.GameComment", b =>
+                {
+                    b.HasOne("DichVuGame.Models.Comment", "Comment")
+                        .WithMany("Games")
+                        .HasForeignKey("CommentID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DichVuGame.Models.Game", "Game")
+                        .WithMany("Comments")
+                        .HasForeignKey("GameID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("DichVuGame.Models.GameDemo", b =>
                 {
                     b.HasOne("DichVuGame.Models.Game", "Game")
                         .WithMany("GameDemos")
                         .HasForeignKey("GameID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.GameReview", b =>
+                {
+                    b.HasOne("DichVuGame.Models.Game", "Game")
+                        .WithMany("Reviews")
+                        .HasForeignKey("GameID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DichVuGame.Models.Review", "Review")
+                        .WithMany("Games")
+                        .HasForeignKey("ReviewID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -630,6 +743,13 @@ namespace DichVuGame.Migrations
                         .HasForeignKey("GameAccountID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.Review", b =>
+                {
+                    b.HasOne("DichVuGame.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserID");
                 });
 
             modelBuilder.Entity("DichVuGame.Models.Studio", b =>

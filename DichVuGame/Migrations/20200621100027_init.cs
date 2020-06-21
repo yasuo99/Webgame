@@ -187,6 +187,48 @@ namespace DichVuGame.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Comments",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ApplicationUserID = table.Column<string>(nullable: true),
+                    UserComment = table.Column<string>(nullable: true),
+                    CommentDate = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Comments", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Comments_AspNetUsers_ApplicationUserID",
+                        column: x => x.ApplicationUserID,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Reviews",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ApplicationUserID = table.Column<string>(nullable: true),
+                    Vote = table.Column<int>(nullable: false),
+                    UserReview = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Reviews", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Reviews_AspNetUsers_ApplicationUserID",
+                        column: x => x.ApplicationUserID,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "TopupHistories",
                 columns: table => new
                 {
@@ -293,6 +335,54 @@ namespace DichVuGame.Migrations
                         name: "FK_GameAccounts_Games_GameID",
                         column: x => x.GameID,
                         principalTable: "Games",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "GameComments",
+                columns: table => new
+                {
+                    GameID = table.Column<int>(nullable: false),
+                    CommentID = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GameComments", x => new { x.GameID, x.CommentID });
+                    table.ForeignKey(
+                        name: "FK_GameComments_Comments_CommentID",
+                        column: x => x.CommentID,
+                        principalTable: "Comments",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_GameComments_Games_GameID",
+                        column: x => x.GameID,
+                        principalTable: "Games",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "GameReviews",
+                columns: table => new
+                {
+                    GameID = table.Column<int>(nullable: false),
+                    ReviewID = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GameReviews", x => new { x.GameID, x.ReviewID });
+                    table.ForeignKey(
+                        name: "FK_GameReviews_Games_GameID",
+                        column: x => x.GameID,
+                        principalTable: "Games",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_GameReviews_Reviews_ReviewID",
+                        column: x => x.ReviewID,
+                        principalTable: "Reviews",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -482,6 +572,11 @@ namespace DichVuGame.Migrations
                 column: "OrderID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Comments_ApplicationUserID",
+                table: "Comments",
+                column: "ApplicationUserID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Demos_GameID",
                 table: "Demos",
                 column: "GameID");
@@ -490,6 +585,16 @@ namespace DichVuGame.Migrations
                 name: "IX_GameAccounts_GameID",
                 table: "GameAccounts",
                 column: "GameID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_GameComments_CommentID",
+                table: "GameComments",
+                column: "CommentID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_GameReviews_ReviewID",
+                table: "GameReviews",
+                column: "ReviewID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Games_StudioID",
@@ -520,6 +625,11 @@ namespace DichVuGame.Migrations
                 name: "IX_RentalHistories_GameAccountID",
                 table: "RentalHistories",
                 column: "GameAccountID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Reviews_ApplicationUserID",
+                table: "Reviews",
+                column: "ApplicationUserID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Studios_CountryID",
@@ -556,6 +666,12 @@ namespace DichVuGame.Migrations
                 name: "Demos");
 
             migrationBuilder.DropTable(
+                name: "GameComments");
+
+            migrationBuilder.DropTable(
+                name: "GameReviews");
+
+            migrationBuilder.DropTable(
                 name: "GameTags");
 
             migrationBuilder.DropTable(
@@ -572,6 +688,12 @@ namespace DichVuGame.Migrations
 
             migrationBuilder.DropTable(
                 name: "Orders");
+
+            migrationBuilder.DropTable(
+                name: "Comments");
+
+            migrationBuilder.DropTable(
+                name: "Reviews");
 
             migrationBuilder.DropTable(
                 name: "Tags");

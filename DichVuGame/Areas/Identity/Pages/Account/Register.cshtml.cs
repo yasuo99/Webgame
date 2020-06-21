@@ -7,6 +7,7 @@ using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using DichVuGame.Models;
 using DichVuGame.Utility;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -16,7 +17,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Extensions.Logging;
-using System.Net.Mail;
+using MimeKit;
+
 namespace DichVuGame.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
@@ -94,7 +96,7 @@ namespace DichVuGame.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Fullname = Input.Fullname, PhoneNumber = Input.Phone, Address = Input.Address, User = Input.Username, Sex=Input.Sex };
+                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Fullname = Input.Fullname, PhoneNumber = Input.Phone, Address = Input.Address, User = Input.Username, Sex = Input.Sex };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
@@ -110,7 +112,7 @@ namespace DichVuGame.Areas.Identity.Pages.Account
                     {
                         await _roleManager.CreateAsync(new IdentityRole(Helper.CUSTOMER_ROLE));
                     }
-                    if(Input.IsManager)
+                    if (Input.IsManager)
                     {
                         await _userManager.AddToRoleAsync(user, Helper.MANAGER_ROLE);
                     }
@@ -122,14 +124,23 @@ namespace DichVuGame.Areas.Identity.Pages.Account
                     _logger.LogInformation("User created a new account with password.");
                     string confirmationToken = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
                     string confirmationLink = Url.Action("ConfirmEmail",
-                        "Account",new { userid = user.Id, token = confirmationToken },
+                        "AccountConfirm", new { userId = user.Id, token = confirmationToken },
                         protocol: HttpContext.Request.Scheme);
 
-                    SmtpClient client = new SmtpClient();
-                    client.DeliveryMethod = SmtpDeliveryMethod.SpecifiedPickupDirectory;
-                    client.PickupDirectoryLocation = @"C:\Test";
-                    client.Send("test@localhost", user.Email, "Confirm your email", confirmationLink);
-                    return RedirectToPage("Login");
+                    using (SmtpClient client = new SmtpClient())
+                    {
+                        var message = new MimeMessage();
+                        message.From.Add(new MailboxAddress("GameProvider", "yasuo12091999@gmail.com"));
+                        message.To.Add(new MailboxAddress("Not Reply", user.Email));
+                        message.Subject = "Confirm your email and be with us";
+                        message.Body = new TextPart(MimeKit.Text.TextFormat.Text)
+                        { Text = "You have register an account, using this your email: " + user.Email + " and registed password to login " + Environment.NewLine + confirmationLink };
+                        client.Connect("smtp.gmail.com", 465, true);
+                        client.Authenticate("yasuo120999@gmail.com","Thanhpro1999@");
+                        client.Send(message); 
+                        client.Disconnect(true);
+                        return RedirectToPage("Login");
+                    }
                 }
                 foreach (var error in result.Errors)
                 {

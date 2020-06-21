@@ -30,5 +30,7 @@ namespace DichVuGame.Models
         public virtual ICollection<Order> Orders { get; set; }
         public virtual ICollection<GameAccount> GameAccounts { get; set; }
         public virtual ICollection<GameDemo> GameDemos { get; set; }
+        public virtual ICollection<GameReview> Reviews { get; set; }
+        public virtual ICollection<GameComment> Comments { get; set; }
     }
 }
