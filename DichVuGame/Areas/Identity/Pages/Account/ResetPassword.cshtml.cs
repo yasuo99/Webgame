@@ -44,7 +44,7 @@ namespace DichVuGame.Areas.Identity.Pages.Account
             public string Code { get; set; }
         }
 
-        public IActionResult OnGet(string code = null)
+        public IActionResult OnGet(string code = null,string test = null)
         {
             if (code == null)
             {
@@ -54,7 +54,8 @@ namespace DichVuGame.Areas.Identity.Pages.Account
             {
                 Input = new InputModel
                 {
-                    Code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code))
+                    Code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code)),
+                    Email = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(test))
                 };
                 return Page();
             }
