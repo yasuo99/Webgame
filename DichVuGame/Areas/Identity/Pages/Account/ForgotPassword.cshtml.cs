@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using MailKit.Net.Smtp;
+using MimeKit;
 
 namespace DichVuGame.Areas.Identity.Pages.Account
 {
@@ -50,20 +52,29 @@ namespace DichVuGame.Areas.Identity.Pages.Account
                 // visit https://go.microsoft.com/fwlink/?LinkID=532713
                 var code = await _userManager.GeneratePasswordResetTokenAsync(user);
                 code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+                var email = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(user.Email));
                 var callbackUrl = Url.Page(
                     "/Account/ResetPassword",
                     pageHandler: null,
-                    values: new { area = "Identity", code },
+                    new { code = code, test = email},
                     protocol: Request.Scheme);
 
-                await _emailSender.SendEmailAsync(
-                    Input.Email,
-                    "Reset Password",
-                    $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                using (SmtpClient client = new SmtpClient())
+                {
+                    var message = new MimeMessage();
+                    message.From.Add(new MailboxAddress("GameProvider", "yasuo12091999@gmail.com"));
+                    message.To.Add(new MailboxAddress("Not Reply", user.Email));
+                    message.Subject = "Reset Password";
+                    message.Body = new TextPart(MimeKit.Text.TextFormat.Text)
+                    { Text = $"Please reset your password by <a href='{callbackUrl}'>clicking here</a>."};
+                    client.Connect("smtp.gmail.com", 465, true);
+                    client.Authenticate("yasuo120999@gmail.com", "Thanhpro1999@");
+                    client.Send(message);
+                    client.Disconnect(true);
+                    return RedirectToPage("./ForgotPasswordConfirmation");
 
-                return RedirectToPage("./ForgotPasswordConfirmation");
+                }
             }
-
             return Page();
         }
     }
