@@ -156,7 +156,7 @@ namespace DichVuGame.Areas.Admin.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost,ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditPOST(int id, [Bind("ID,Gamename,GamePoster,Release,StudioID,Price,Available")] Game game)
+        public async Task<IActionResult> EditPOST(int id, [Bind("ID,Gamename,GameDescription,GamePoster,Release,StudioID,Price,Available")] Game game)
         {
             if (id != game.ID)
             {

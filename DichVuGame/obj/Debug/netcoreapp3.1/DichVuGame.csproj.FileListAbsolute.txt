@@ -1605,3 +1605,13 @@ C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Di
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.genruntimeconfig.cache
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameDemos\Index.cshtml.g.cs
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Index.cshtml.g.cs

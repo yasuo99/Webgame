@@ -13,9 +13,90 @@
             <div class="col-6">
                 <h4>@Model.Game.Gamename</h4>
                 <h6>@Model.Game.Studio.Studioname</h6>
-                <input type="number" min="1" max="10" asp-for="@Model.Amount"/>
+                <input type="number" min="1" max="10" asp-for="@Model.Amount" />
                 <button type="submit" asp-route-id="@Model.Game.ID" class="btn btn-primary">Thêm vào giỏ </button>
             </div>
         </div>
     </div>
 </form>
+<hr />
+<div class="container border rounded">
+    <h4>Gửi câu hỏi và ý kiến của bạn về sản phẩm</h4>
+    @if(ViewBag.RequireLogin != "")
+    {
+        <div class="text-danger">@ViewBag.RequireLogin</div>
+    }
+    <form id="commentForm" asp-action="AddComment" asp-controller="Comments" method="post" asp-route-id="@Model.Game.ID">
+        <div class="row">
+            <input hidden asp-for="ApplicationUser.Id" />
+            <input hidden asp-for="Game.ID" />
+            <div class="col-sm-2"><i class="fas fa-user"></i></div>
+            <div class="col-lg-8"><input type="text" name="comment"/></div>
+            <div class="col-sm-2"><button type="submit" class="btn btn-secondary">Bình luận</button></div>
+        </div>
+    </form>
+    @if (Model.Comments.Count > 0)
+    {
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="row">
+                <div class="col-2"><i class="fas fa-user"></i> <br /> @comment.ApplicationUser.User</div>
+                <div class="col-8"><p>@comment.UserComment</p></div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="row">
+            <p style="text-align:center!important">Chưa có bình luận</p>
+        </div>
+    }
+</div>
+<hr />
+<div class="container border rounded">
+    @if (Model.WasBought)
+    {
+        <h4>Gửi nhận xét của bạn về sản phẩm</h4>
+        <div class="row">
+            <form asp-action="AddReview" asp-controller="Reviews">
+                <div class="col-2"><i class="fas fa-user"></i></div>
+                <div class="col-8"><input type="text" name="comment" /></div>
+                <div class="col-2"><button type="submit" class="btn btn-secondary">Nhận xét</button></div>
+            </form>
+        </div>
+    }
+    @if (Model.Reviews.Count > 0)
+    {
+        foreach (var review in Model.Reviews)
+        {
+            <div class="col-2">
+                <i class="fas fa-user"></i><br />
+                @review.ApplicationUser.User
+            </div>
+            <div class="col-8">
+                @for (int i = 0; i < review.Vote; i++)
+                {
+                    <i class="fas fa-star" style="color:gold"></i>
+                }
+                @for (int i = review.Vote; i < 5; i++)
+                {
+                    <i class="far fa-star" style="color:gold"></i>
+                }
+                <br />
+                <p>@review.UserReview</p>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="row">
+            <p style="text-align:center!important">Sản phẩm chưa có đánh giá</p>
+        </div>
+    }
+</div>
+<script>
+    function handle(e) {
+        e.preventDefault(); // Otherwise the form will be submitted
+        document.getElementById("commentForm").submit();
+    }
+</script>

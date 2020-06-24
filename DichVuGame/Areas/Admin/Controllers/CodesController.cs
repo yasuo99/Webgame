@@ -31,7 +31,7 @@ namespace DichVuGame.Areas.Admin.Controllers
         // GET: Admin/Codes
         public async Task<IActionResult> Index()
         {
-            var codes = _context.Codes.Include(c => c.Game).Include(c => c.Order);
+            var codes = _context.Codes.Include(c => c.Game);
             return View(await codes.ToListAsync());
         }
 
@@ -45,7 +45,6 @@ namespace DichVuGame.Areas.Admin.Controllers
 
             var code = await _context.Codes
                 .Include(c => c.Game)
-                .Include(c => c.Order)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (code == null)
             {
@@ -97,7 +96,6 @@ namespace DichVuGame.Areas.Admin.Controllers
                 return NotFound();
             }
             ViewData["GameID"] = new SelectList(_context.Games, "ID", "ID", code.GameID);
-            ViewData["OrderID"] = new SelectList(_context.Orders, "ID", "ID", code.OrderID);
             return View(code);
         }
 
@@ -134,7 +132,6 @@ namespace DichVuGame.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["GameID"] = new SelectList(_context.Games, "ID", "ID", code.GameID);
-            ViewData["OrderID"] = new SelectList(_context.Orders, "ID", "ID", code.OrderID);
             return View(code);
         }
 
@@ -148,7 +145,6 @@ namespace DichVuGame.Areas.Admin.Controllers
 
             var code = await _context.Codes
                 .Include(c => c.Game)
-                .Include(c => c.Order)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (code == null)
             {

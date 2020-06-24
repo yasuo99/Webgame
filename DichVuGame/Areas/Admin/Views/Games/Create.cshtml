@@ -31,6 +31,15 @@
         </div>
         <div class="form-group row">
             <div class="col-3">
+                <label asp-for="Game.GameDescription" class="control-label"></label>
+            </div>
+            <div class="col-6">
+                <textarea asp-for="Game.GameDescription" class="form-control" style="border:none;"/>
+                <span asp-validation-for="Game.GameDescription" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
                 <label asp-for="Game.Release" class="control-label"></label>
             </div>
             <div class="col-6">
@@ -69,7 +78,7 @@
                 <label class="control-label">Thẻ tag</label>
             </div>
             <div class="col-6">
-                <input asp-for="Game.GameTags" class="form-control" placeholder="Nhập cách nhau dấu ,"/>
+                <input asp-for="Game.GameTags" class="form-control" placeholder="Nhập cách nhau dấu ," />
             </div>
         </div>
         <div class="form-group">

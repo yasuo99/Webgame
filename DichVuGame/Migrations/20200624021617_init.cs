@@ -279,6 +279,7 @@ namespace DichVuGame.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Gamename = table.Column<string>(nullable: true),
                     GamePoster = table.Column<string>(nullable: true),
+                    GameDescription = table.Column<string>(nullable: true),
                     Release = table.Column<DateTime>(nullable: false),
                     StudioID = table.Column<int>(nullable: false),
                     Price = table.Column<int>(nullable: false),
@@ -292,6 +293,27 @@ namespace DichVuGame.Migrations
                         name: "FK_Games_Studios_StudioID",
                         column: x => x.StudioID,
                         principalTable: "Studios",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Codes",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    GameID = table.Column<int>(nullable: false),
+                    Gamecode = table.Column<string>(nullable: true),
+                    Available = table.Column<bool>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Codes", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Codes_Games_GameID",
+                        column: x => x.GameID,
+                        principalTable: "Games",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -417,7 +439,7 @@ namespace DichVuGame.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ApplicationUserID = table.Column<int>(nullable: false),
+                    ApplicationUserID = table.Column<string>(nullable: true),
                     ApplicationID = table.Column<string>(nullable: true),
                     PurchasedDate = table.Column<DateTime>(nullable: false),
                     Total = table.Column<int>(nullable: false),
@@ -495,31 +517,27 @@ namespace DichVuGame.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Codes",
+                name: "OrderDetails",
                 columns: table => new
                 {
-                    ID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    GameID = table.Column<int>(nullable: false),
-                    Gamecode = table.Column<string>(nullable: true),
-                    Available = table.Column<bool>(nullable: false),
-                    OrderID = table.Column<int>(nullable: true)
+                    OrderID = table.Column<int>(nullable: false),
+                    CodeID = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Codes", x => x.ID);
+                    table.PrimaryKey("PK_OrderDetails", x => new { x.OrderID, x.CodeID });
                     table.ForeignKey(
-                        name: "FK_Codes_Games_GameID",
-                        column: x => x.GameID,
-                        principalTable: "Games",
+                        name: "FK_OrderDetails_Codes_CodeID",
+                        column: x => x.CodeID,
+                        principalTable: "Codes",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Codes_Orders_OrderID",
+                        name: "FK_OrderDetails_Orders_OrderID",
                         column: x => x.OrderID,
                         principalTable: "Orders",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -567,11 +585,6 @@ namespace DichVuGame.Migrations
                 column: "GameID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Codes_OrderID",
-                table: "Codes",
-                column: "OrderID");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Comments_ApplicationUserID",
                 table: "Comments",
                 column: "ApplicationUserID");
@@ -605,6 +618,11 @@ namespace DichVuGame.Migrations
                 name: "IX_GameTags_TagID",
                 table: "GameTags",
                 column: "TagID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_CodeID",
+                table: "OrderDetails",
+                column: "CodeID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Orders_ApplicationID",
@@ -660,9 +678,6 @@ namespace DichVuGame.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Codes");
-
-            migrationBuilder.DropTable(
                 name: "Demos");
 
             migrationBuilder.DropTable(
@@ -673,6 +688,9 @@ namespace DichVuGame.Migrations
 
             migrationBuilder.DropTable(
                 name: "GameTags");
+
+            migrationBuilder.DropTable(
+                name: "OrderDetails");
 
             migrationBuilder.DropTable(
                 name: "RentalHistories");
@@ -687,9 +705,6 @@ namespace DichVuGame.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "Orders");
-
-            migrationBuilder.DropTable(
                 name: "Comments");
 
             migrationBuilder.DropTable(
@@ -697,6 +712,12 @@ namespace DichVuGame.Migrations
 
             migrationBuilder.DropTable(
                 name: "Tags");
+
+            migrationBuilder.DropTable(
+                name: "Codes");
+
+            migrationBuilder.DropTable(
+                name: "Orders");
 
             migrationBuilder.DropTable(
                 name: "GameAccounts");

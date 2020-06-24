@@ -14,6 +14,8 @@ namespace DichVuGame.Models
         public string Gamename { get; set; }
         [Display(Name = "Poster game")]
         public string GamePoster { get; set; }
+        [Display(Name = "Mô tả game")]
+        public string GameDescription { get; set; }
         [Display(Name ="Năm phát hành")]
         public DateTime Release { get; set; }
         public int StudioID { get; set; }

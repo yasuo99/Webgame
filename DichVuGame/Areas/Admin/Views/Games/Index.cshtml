@@ -20,6 +20,9 @@
                 @Html.DisplayNameFor(model => model.Game.Gamename)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Game.GameDescription)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Game.Release)
             </th>
             <th>
@@ -38,10 +41,13 @@
 @foreach (var item in Model.Games) {
         <tr>
             <td>
-                <img src="@item.GamePoster" width="150" height="150"/>
+                <img src="@item.GamePoster" width="150" height="150" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gamename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameDescription)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Release)

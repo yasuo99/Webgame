@@ -35,14 +35,9 @@ namespace DichVuGame.Migrations
                     b.Property<string>("Gamecode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("OrderID")
-                        .HasColumnType("int");
-
                     b.HasKey("ID");
 
                     b.HasIndex("GameID");
-
-                    b.HasIndex("OrderID");
 
                     b.ToTable("Codes");
                 });
@@ -100,6 +95,9 @@ namespace DichVuGame.Migrations
 
                     b.Property<int>("Available")
                         .HasColumnType("int");
+
+                    b.Property<string>("GameDescription")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GamePoster")
                         .HasColumnType("nvarchar(max)");
@@ -227,8 +225,8 @@ namespace DichVuGame.Migrations
                     b.Property<string>("ApplicationID")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int>("ApplicationUserID")
-                        .HasColumnType("int");
+                    b.Property<string>("ApplicationUserID")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("GameID")
                         .HasColumnType("int");
@@ -246,6 +244,21 @@ namespace DichVuGame.Migrations
                     b.HasIndex("GameID");
 
                     b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.OrderDetail", b =>
+                {
+                    b.Property<int>("OrderID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CodeID")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderID", "CodeID");
+
+                    b.HasIndex("CodeID");
+
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("DichVuGame.Models.RentalHistory", b =>
@@ -634,10 +647,6 @@ namespace DichVuGame.Migrations
                         .HasForeignKey("GameID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("DichVuGame.Models.Order", "Order")
-                        .WithMany("Codes")
-                        .HasForeignKey("OrderID");
                 });
 
             modelBuilder.Entity("DichVuGame.Models.Comment", b =>
@@ -728,6 +737,21 @@ namespace DichVuGame.Migrations
                     b.HasOne("DichVuGame.Models.Game", null)
                         .WithMany("Orders")
                         .HasForeignKey("GameID");
+                });
+
+            modelBuilder.Entity("DichVuGame.Models.OrderDetail", b =>
+                {
+                    b.HasOne("DichVuGame.Models.Code", "Code")
+                        .WithMany("Orders")
+                        .HasForeignKey("CodeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DichVuGame.Models.Order", "Order")
+                        .WithMany("Codes")
+                        .HasForeignKey("OrderID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("DichVuGame.Models.RentalHistory", b =>

@@ -33,12 +33,15 @@ namespace DichVuGame.Controllers
                 Game = new Game(),
                 Games = new List<Game>(),
                 GameTags = new List<GameTag>(),
-                GameDemos = new List<GameDemo>()
+                GameDemos = new List<GameDemo>(),
+                ApplicationUser = new ApplicationUser(),
+                Comments = new List<Comment>(),
+                Reviews = new List<Review>(),
             };
         }
 
         public async Task<IActionResult> Index()
-        {            
+        {
             List<CartViewModel> lstCart = HttpContext.Session.Get<List<CartViewModel>>("ShoppingCartSession");
             if (lstCart == null)
             {
@@ -51,11 +54,11 @@ namespace DichVuGame.Controllers
         }
         public async Task<IActionResult> Search(string q = null)
         {
-            if(q != null)
+            if (q != null)
             {
                 var queryGames = await _db.Games.Where(u => u.Gamename.ToLower().Trim().Contains(q.ToLower().Trim())).ToListAsync();
                 gamesVM.Games = queryGames;
-                return View(nameof(Index),gamesVM);
+                return View(nameof(Index), gamesVM);
 
             }
             return RedirectToAction(nameof(Index));
@@ -64,7 +67,7 @@ namespace DichVuGame.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int id, string requireLogin = null)
         {
             List<CartViewModel> lstCart = HttpContext.Session.Get<List<CartViewModel>>("ShoppingCartSession");
             if (lstCart == null)
@@ -72,8 +75,39 @@ namespace DichVuGame.Controllers
                 lstCart = new List<CartViewModel>();
             }
             HttpContext.Session.Set("ShoppingCartSession", lstCart);
-            var game = await _db.Games.Where(u => u.ID == id).Include(u =>u.Studio).FirstOrDefaultAsync();
+            var game = await _db.Games.Where(u => u.ID == id).Include(u => u.Studio).FirstOrDefaultAsync();
+            var user = await _db.ApplicationUsers.Where(u => u.Email == User.Identity.Name).FirstOrDefaultAsync();
+            var commentOfGame = await (from a in _db.Games
+                                       join b in _db.GameComments
+                                       on a.ID equals b.GameID
+                                       where a.ID == id
+                                       select b.Comment).ToListAsync();
+            var reviewOfGame = await (from a in _db.Games
+                                      join b in _db.GameReviews
+                                      on a.ID equals b.GameID
+                                      where a.ID == id
+                                      select b.Review).ToListAsync();
+            if(user!= null)
+            {
+                var bought = await (from a in _db.Orders
+                                    join b in _db.OrderDetails
+                                    on a.ID equals b.OrderID
+                                    where a.ApplicationUserID == user.Id
+                                    && b.Code.GameID == id
+                                    select b.Code.Game).FirstOrDefaultAsync();
+                if (bought != null)
+                {
+                    gamesVM.WasBought = true;
+                }
+            }  
             gamesVM.Game = game;
+            gamesVM.ApplicationUser = user;
+            gamesVM.Comments = commentOfGame.OrderByDescending(u => u.CommentDate).ToList();
+            gamesVM.Reviews = reviewOfGame.OrderByDescending(u => u.Vote).ToList();
+            if(requireLogin != null)
+            {
+                ViewBag.RequireLogin = "Vui lòng đăng nhập để bình luận";
+            }
             return View(gamesVM);
         }
         [HttpPost, ActionName("Details")]
@@ -86,9 +120,9 @@ namespace DichVuGame.Controllers
                 lstCart = new List<CartViewModel>();
             }
             bool alreadyInCart = false;
-            foreach(var item in lstCart)
+            foreach (var item in lstCart)
             {
-                if(item.Game.ID == id)
+                if (item.Game.ID == id)
                 {
                     item.Amount += gamesVM.Amount;
                     alreadyInCart = true;
@@ -117,20 +151,20 @@ namespace DichVuGame.Controllers
             bool alreadyInCart = false;
             var game = _db.Games.Where(u => u.ID == id).FirstOrDefault();
             List<CartViewModel> lstCart = HttpContext.Session.Get<List<CartViewModel>>("ShoppingCartSession");
-            if(lstCart == null)
+            if (lstCart == null)
             {
                 lstCart = new List<CartViewModel>();
             }
-            foreach(var item in lstCart)
+            foreach (var item in lstCart)
             {
-                if(item.Game.ID == id)
+                if (item.Game.ID == id)
                 {
                     item.Amount++;
                     alreadyInCart = true;
                     break;
                 }
             }
-            if(!alreadyInCart)
+            if (!alreadyInCart)
             {
                 lstCart.Add(new CartViewModel()
                 {
@@ -139,15 +173,15 @@ namespace DichVuGame.Controllers
                 });
             }
             HttpContext.Session.Set("ShoppingCartSession", lstCart);
-            ViewBag.AddToCart = "Thành công: Bạn đã thêm " +game.Gamename + " vào giỏ hàng";
+            ViewBag.AddToCart = "Thành công: Bạn đã thêm " + game.Gamename + " vào giỏ hàng";
             var games = await _db.Games.Include(u => u.Studio).ToListAsync();
             gamesVM.Games = games;
-            return View(nameof(Index),gamesVM);
+            return View(nameof(Index), gamesVM);
         }
         public void CheckTimeOut()
         {
             var rentingAccount = _db.GameAccounts.Where(ga => ga.Available == false).ToList();
-            if(rentingAccount != null)
+            if (rentingAccount != null)
             {
                 while (rentingAccount.Count > 0)
                 {
@@ -165,7 +199,7 @@ namespace DichVuGame.Controllers
                         }
                     }
                 }
-            }    
+            }
 
         }
         private static Random random = new Random();
