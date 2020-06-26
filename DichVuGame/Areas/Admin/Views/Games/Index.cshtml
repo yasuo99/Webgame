@@ -2,13 +2,13 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminHome/_CMSLayout.cshtml";
 }
-
 <br />
 <br />
 <div class="row">
-    <div class="col-sm-8">Danh sách game</div>
-    <div class="col-sm-4"><a class="btn btn-primary" asp-area="Admin" asp-controller="Games" asp-action="Create">Thêm game mới</a></div>
+    <div class="col-6">Danh sách game</div>
+    <div class="col-6 text-right"><a class="btn btn-primary" asp-area="Admin" asp-controller="Games" asp-action="Create">Thêm game mới</a></div>
 </div>
 <table class="table">
     <thead>
@@ -32,7 +32,10 @@
                 @Html.DisplayNameFor(model => model.Game.Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Game.Available)
+                @Html.DisplayNameFor(model => model.Game.AvailableCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game.AvailableAccount)
             </th>
             <th></th>
         </tr>
@@ -59,12 +62,17 @@
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Available)
+                @Html.DisplayFor(modelItem => item.AvailableCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailableAccount)
             </td>
             <td>
                 <div class="btn-group">
                     <a type="button" class="btn btn-primary" asp-action="Create" asp-controller="GameDemos" asp-route-id="@item.ID"><i class="fas fa-photo-video"></i></a>
                     <a type="button" class="btn btn-primary" asp-action="Create" asp-controller="GameAccounts" asp-route-id="@item.ID"><i class="far fa-plus-square"></i></a>
+                    <a type="button" class="btn btn-primary" asp-action="Create" asp-controller="Codes" asp-route-id="@item.ID"><i class="far fa-plus-square"></i></a>
+                    <a type="button" class="btn btn-primary" asp-action="Create" asp-controller="SystemRequirements" asp-route-id="@item.ID"><i class="fas fa-laptop"></i></a>
                     <a type="button" class="btn btn-success" asp-action="Edit" asp-controller="Games" asp-route-id="@item.ID"><i class="fas fa-edit"></i></a>
                     <a type="button" class="btn btn-info" asp-action="Details" asp-controller="Games" asp-route-id="@item.ID"><i class="far fa-list-alt"></i></a>
                     <a type="button" class="btn btn-danger" asp-action="Delete" asp-controller="Games" asp-route-id="@item.ID"><i class="fas fa-trash-alt"></i></a>

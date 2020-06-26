@@ -17,6 +17,10 @@ namespace DichVuGame.Models
         public string Username { get; set; }
         [Display(Name = "Mật khẩu")]
         public string Password { get; set; }
+        [Display(Name = "Giá thuê/h")]
+        public double Price { get; set; }
+        [Display(Name = "Trạng thái")]
         public bool Available { get; set; }
+        public ICollection<RentalDetail> Rentals { get; set; }    
     }
 }

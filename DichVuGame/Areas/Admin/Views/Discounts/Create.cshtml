@@ -1,0 +1,54 @@
+﻿@model DichVuGame.Models.Discount
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/AdminHome/_CMSLayout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Discount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="text-danger">@Html.ValidationMessage("SameCountry")</div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label asp-for="DiscountCode" class="control-label"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="DiscountCode" class="form-control" />
+                    <span asp-validation-for="DiscountCode" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label asp-for="DiscountValue" class="control-label"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="DiscountValue" class="form-control" />
+                    <span asp-validation-for="DiscountValue" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label asp-for="Amount" class="control-label"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Amount" class="form-control" />
+                    <span asp-validation-for="Amount" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

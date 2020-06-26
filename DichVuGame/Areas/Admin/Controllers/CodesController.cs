@@ -59,7 +59,7 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             var game = await _context.Games.Where(u => u.ID == id).FirstOrDefaultAsync();
             GamesVM.Game = game;
-            return View();
+            return View(GamesVM);
         }
 
         // POST: Admin/Codes/Create
@@ -71,13 +71,23 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                GamesVM.Code.GameID = GamesVM.Game.ID;
-                GamesVM.Code.Available = true;
-                var game = await _context.Games.Where(u => u.ID == GamesVM.Game.ID).FirstOrDefaultAsync();
-                game.Available += 1;
-                _context.Add(GamesVM.Code);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (SameCode(GamesVM.Code.Gamecode) == false)
+                {
+                    GamesVM.Code.GameID = GamesVM.Game.ID;
+                    GamesVM.Code.Available = true;
+                    var game = await _context.Games.Where(u => u.ID == GamesVM.Game.ID).FirstOrDefaultAsync();
+                    game.AvailableCode += 1;
+                    _context.Add(GamesVM.Code);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    ModelState.AddModelError("SameCode", "Code game đã có trên hệ thống");
+                    var game = await _context.Games.Where(u => u.ID == GamesVM.Game.ID).FirstOrDefaultAsync();
+                    GamesVM.Game = game;
+                    return View(GamesVM);
+                }
             }
             return View(GamesVM);
         }
@@ -145,7 +155,7 @@ namespace DichVuGame.Areas.Admin.Controllers
 
             var code = await _context.Codes
                 .Include(c => c.Game)
-                .FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.ID == id);          
             if (code == null)
             {
                 return NotFound();
@@ -160,7 +170,9 @@ namespace DichVuGame.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var code = await _context.Codes.FindAsync(id);
+            var game = await _context.Games.FindAsync(code.GameID);
             _context.Codes.Remove(code);
+            game.AvailableCode -= 1;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -168,6 +180,10 @@ namespace DichVuGame.Areas.Admin.Controllers
         private bool CodeExists(int id)
         {
             return _context.Codes.Any(e => e.ID == id);
+        }
+        private bool SameCode(string code)
+        {
+            return _context.Codes.Any(e => e.Gamecode == code);
         }
     }
 }

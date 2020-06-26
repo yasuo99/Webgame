@@ -12,11 +12,15 @@ namespace DichVuGame.Models
         public int ID { get; set; }
         [Display(Name = "Người mua")]
         public string ApplicationUserID { get; set; }
-        [ForeignKey("ApplicationID")]
+        [ForeignKey("ApplicationUserID")]
         public ApplicationUser ApplicationUser { get; set; }
         public DateTime PurchasedDate { get; set; }
+        public int? DiscountID { get; set; }
+        [ForeignKey("DiscountID")]
+        public Discount Discount { get; set; }
         [Display(Name = "Thành tiền")]
-        public int Total { get; set; }
+        public double Total { get; set; }
+        
         public virtual ICollection<OrderDetail> Codes { get; set; }
     }
 }

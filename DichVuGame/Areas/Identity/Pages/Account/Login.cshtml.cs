@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using DichVuGame.Data;
+using Microsoft.EntityFrameworkCore;
+using DichVuGame.Utility;
 
 namespace DichVuGame.Areas.Identity.Pages.Account
 {
@@ -20,14 +23,15 @@ namespace DichVuGame.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
-
+        private readonly ApplicationDbContext _db;
         public LoginModel(SignInManager<IdentityUser> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<IdentityUser> userManager)
+            UserManager<IdentityUser> userManager,ApplicationDbContext db)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
+            _db = db;
         }
 
         [BindProperty]
@@ -82,6 +86,11 @@ namespace DichVuGame.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
+                    var user = await _db.ApplicationUsers.Where(u => u.Email == Input.Email).FirstOrDefaultAsync();
+                    if(await _userManager.IsInRoleAsync(user,Helper.ADMIN_ROLE) || await _userManager.IsInRoleAsync(user, Helper.CUSTOMERCARE_ROLE)|| await _userManager.IsInRoleAsync(user, Helper.MANAGER_ROLE)|| await _userManager.IsInRoleAsync(user, Helper.MRHAI_ROLE))
+                    {
+                        return RedirectToAction("Index", "AdminHome", new { area = "Admin"});
+                    }    
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }

@@ -17,7 +17,7 @@ namespace DichVuGame.Models
         [Display(Name = "Địa chỉ")]
         public string Address { get; set; }
         [Display(Name = "Số dư tài khoản")]
-        public int Balance { get; set; }
+        public double Balance { get; set; }
         [Display(Name ="Username")]
         public string User { get; set; }    
         public virtual ICollection<TopupHistory> TopupHistories { get; set; }

@@ -51,7 +51,7 @@ namespace DichVuGame.Areas.Identity.Pages.Account.Manage
             [Display(Name ="Địa chỉ")]
             public string Address { get; set; }
             [Display(Name = "Số dư tài khoản")]
-            public int Balance { get; set; }
+            public double Balance { get; set; }
 
         }
 

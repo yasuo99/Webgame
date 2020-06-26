@@ -32,15 +32,15 @@ namespace DichVuGame.Data
                 {
                     _userManager.CreateAsync(new ApplicationUser
                     {
-                        UserName = "superadmin2@gmail.com",
-                        Email = "superadmin2@gmail.com",
-                        User = "Thanh",
-                        PhoneNumber = "0983961054",
+                        UserName = "mrtruonghai@gmail.com",
+                        Email = "mrtruonghai@gmail.com",
+                        User = "Mr. Hai",
+                        PhoneNumber = "091123123123",
                         Address = "Quận 9",
                         Sex = "Nam",
                         EmailConfirmed = true,
                     }, "Admin1@").GetAwaiter().GetResult();
-                    ApplicationUser usertodo = _db.ApplicationUsers.Where(u => u.Email == "superadmin2@gmail.com").FirstOrDefault();
+                    ApplicationUser usertodo = _db.ApplicationUsers.Where(u => u.Email == "mrtruonghai@gmail.com").FirstOrDefault();
                     await _userManager.AddToRoleAsync(usertodo, Helper.ADMIN_ROLE);
                 }
                 return;
@@ -61,7 +61,7 @@ namespace DichVuGame.Data
                 EmailConfirmed = true,
             }, "Admin1@").GetAwaiter().GetResult();
             ApplicationUser user = _db.ApplicationUsers.Where(u => u.Email == "superadmin2@gmail.com").FirstOrDefault();
-            await _userManager.AddToRoleAsync(user, Helper.ADMIN_ROLE);
+            _userManager.AddToRoleAsync(user, Helper.ADMIN_ROLE).GetAwaiter().GetResult();
         }
     }
 }

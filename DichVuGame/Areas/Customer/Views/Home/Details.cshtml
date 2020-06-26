@@ -3,18 +3,29 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
 <form asp-action="DetailsPOST" asp-controller="Home" method="post">
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <img src="@Model.Game.GamePoster" width="150" height="150" />
+                <img src="@Model.Game.GamePoster" width="200" height="200" />
             </div>
             <div class="col-6">
                 <h4>@Model.Game.Gamename</h4>
                 <h6>@Model.Game.Studio.Studioname</h6>
-                <input type="number" min="1" max="10" asp-for="@Model.Amount" />
-                <button type="submit" asp-route-id="@Model.Game.ID" class="btn btn-primary">Thêm vào giỏ </button>
+                @if (Model.Game.AvailableCode > 0)
+                {
+                    <input type="number" min="1" max="@Model.Game.AvailableCode" value="1" asp-for="@Model.Amount" />
+                    <button type="submit" asp-route-id="@Model.Game.ID" asp-route-type="Code" class="btn btn-primary">Thêm vào giỏ </button>
+                }
+                @if (Model.Game.AvailableAccount > 0)
+                {
+                    <input name="time" min="1" value="1" />
+                    <button type="submit" asp-route-id="@Model.Game.ID" asp-route-type="Account" class="btn btn-primary">Thuê tài khoản </button>
+                }
+                @if(Model.Game.AvailableAccount == 0 && Model.Game.AvailableCode == 0)
+                {
+                    <div class="text-info">Sản phẩm hiện đang hết hàng</div>
+                }
             </div>
         </div>
     </div>
@@ -22,7 +33,7 @@
 <hr />
 <div class="container border rounded">
     <h4>Gửi câu hỏi và ý kiến của bạn về sản phẩm</h4>
-    @if(ViewBag.RequireLogin != "")
+    @if (ViewBag.RequireLogin != "")
     {
         <div class="text-danger">@ViewBag.RequireLogin</div>
     }
@@ -31,7 +42,7 @@
             <input hidden asp-for="ApplicationUser.Id" />
             <input hidden asp-for="Game.ID" />
             <div class="col-sm-2"><i class="fas fa-user"></i></div>
-            <div class="col-lg-8"><input type="text" name="comment"/></div>
+            <div class="col-lg-8"><input type="text" name="comment" /></div>
             <div class="col-sm-2"><button type="submit" class="btn btn-secondary">Bình luận</button></div>
         </div>
     </form>

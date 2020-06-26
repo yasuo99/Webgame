@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/AdminHome/_CMSLayout.cshtml";
 }
 
 <h1>Create</h1>
@@ -11,6 +12,7 @@
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
     <div class="p-4 border rounded">
+        <div class="text-danger">@Html.ValidationMessage("SameGame")</div>
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group row">
             <div class="col-3">
@@ -21,7 +23,7 @@
                 <span asp-validation-for="Game.Gamename" class="text-danger"></span>
             </div>
         </div>
-        <div class="form-group">
+        <div class="form-group row">
             <div class="col-3">
                 <label class="control-label" asp-for="Game.GamePoster"></label>
             </div>
@@ -62,15 +64,6 @@
             <div class="col-6">
                 <input asp-for="Game.Price" class="form-control" />
                 <span asp-validation-for="Game.Price" class="text-danger"></span>
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-3">
-                <label asp-for="Game.Available" class="control-label"></label>
-            </div>
-            <div class="col-6">
-                <input asp-for="Game.Available" class="form-control" />
-                <span asp-validation-for="Game.Available" class="text-danger"></span>
             </div>
         </div>
         <div class="form-group row">

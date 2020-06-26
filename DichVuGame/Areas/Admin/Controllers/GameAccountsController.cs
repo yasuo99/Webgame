@@ -70,12 +70,24 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                GameAccountVM.GameAccount.GameID = GameAccountVM.Game.ID;
-                _context.Add(GameAccountVM.GameAccount);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (AccountExists(GameAccountVM.GameAccount.Username) == false)
+                {
+                    GameAccountVM.GameAccount.GameID = GameAccountVM.Game.ID;
+                    _context.Add(GameAccountVM.GameAccount);
+                    var game = await _context.Games.FindAsync(GameAccountVM.Game.ID);
+                    GameAccountVM.GameAccount.Price = game.Price * 0.1;
+                    game.AvailableAccount += 1;
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    GameAccountVM.Game = await _context.Games.Where(u => u.ID == id).FirstOrDefaultAsync();
+                    ModelState.AddModelError("SameAccount", "Tài khoản game đã tồn tại");
+                    ViewBag.SameAccount = "Tài khoản game đã tồn tại";
+                    return View(GameAccountVM);
+                }
             }
-            ViewData["GameID"] = new SelectList(_context.Games, "ID", "Gamename", GameAccountVM.GameAccount.GameID);
             return View(GameAccountVM);
         }
 
@@ -158,6 +170,8 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             var gameAccount = await _context.GameAccounts.FindAsync(id);
             _context.GameAccounts.Remove(gameAccount);
+            var game = await _context.Games.FindAsync(gameAccount.GameID);
+            game.AvailableAccount -= 1;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -165,6 +179,10 @@ namespace DichVuGame.Areas.Admin.Controllers
         private bool GameAccountExists(int id)
         {
             return _context.GameAccounts.Any(e => e.ID == id);
+        }
+        private bool AccountExists(string username)
+        {
+            return _context.GameAccounts.Any(e => e.Username == username);
         }
     }
 }

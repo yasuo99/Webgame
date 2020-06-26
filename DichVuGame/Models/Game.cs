@@ -22,9 +22,11 @@ namespace DichVuGame.Models
         [ForeignKey("StudioID")]
         public virtual Studio Studio { get; set; }
         [Display(Name = "Giá")]
-        public int Price { get; set; }
-        [Display(Name = "Sẵn có")]
-        public int Available { get; set; }      
+        public double Price { get; set; }
+        [Display(Name = "Code sẵn có")]
+        public int AvailableCode { get; set; }     
+        [Display(Name = "Tài khoản sẵn có")]
+        public int AvailableAccount { get; set; }
         public string Alias { get; set; }
         public virtual SystemRequirement SystemRequirement { get; set; }
         public virtual ICollection<Code> Codes { get; set; }
