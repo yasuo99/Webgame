@@ -1,0 +1,119 @@
+﻿@model DichVuGame.Models.ViewModels.SuperCartViewModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th class="text-center">Giá</th>
+                        <th class="text-center">Tổng</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{ var subtotal = 0.0;
+                        @if (Model.CartVM1.Count > 0)
+                        {
+                            <tr>
+                                <td>  Mua game    </td>
+                                <td></td>
+                                <td>   </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            @foreach (var product in Model.CartVM1)
+                            {
+                                <tr>
+                                    <td class="col-sm-8 col-md-6">
+                                        <div class="media">
+                                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="@product.Game.GamePoster" style="width: 80px; height: 80px;"> </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-id="@product.Game.ID"> Tên sản phẩm</a></h4>
+                                                <h5 class="media-heading"> by<a asp-area="Customer" asp-controller="Home"> @product.Studio.Studioname</a></h5>
+                                                <span>Tình trạng: </span><span class="text-success"><strong>Còn hàng</strong></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="col-sm-1 col-md-1" style="text-align: center">
+                                        <p>@product.Amount</p>
+                                    </td>
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>@product.Game.Price</strong></td>
+                                    @{ var total = product.Game.Price * product.Amount;
+                                        subtotal += total;}
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>@total </strong></td>
+                                    <td></td>
+                                </tr>
+                            }
+                        }
+                        @if (Model.CartVM2.Count > 0)
+                        {
+                            <tr>
+                                <td>  Thuê tài khoản game </td>
+                                <td>   </td>
+                                <td>   </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            @foreach (var product in Model.CartVM2)
+                            {
+                                <tr>
+                                    <td class="col-sm-8 col-md-6">
+                                        <div class="media">
+                                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="@product.Game.GamePoster" style="width: 80px; height: 80px;"> </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-id="@product.Game.ID"> Tên sản phẩm</a></h4>
+                                                <h5 class="media-heading"> by<a asp-area="Customer" asp-controller="HOme"> @product.Studio.Studioname</a></h5>
+                                                <span>Tình trạng: </span><span class="text-success"><strong>Còn hàng</strong></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="col-sm-1 col-md-1" style="text-align: center">
+                                        <p>@product.Amount</p>
+                                    </td>
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>@product.Game.Price</strong></td>
+                                    @{ var total = product.Game.Price * product.Amount;
+                                        subtotal += total;}
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>@total </strong></td>
+                                    <td></td>
+                                </tr>
+                            }
+                        }
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td><h5>Tổng hóa đơn</h5></td>
+                            <td class="text-right"><h5><strong>@Model.Total</strong></h5></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td><h5>Kết quả</h5></td>
+                            <td class="text-right"><h5><strong>Thanh toán thành công</strong></h5></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>
+                                <a class="btn btn-primary" asp-controller="Home" asp-action="Index">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span> Tiếp tục mua hàng
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

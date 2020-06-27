@@ -18,8 +18,6 @@ namespace DichVuGame.Models
         public string Gamecode { get; set; }
         [Display(Name = "Sẵn có")]
         public bool Available { get; set; }
-        public int? OrderID { get; set; }
-        [ForeignKey("OrderID")]
-        public virtual Order Order { get; set; }
+        public virtual ICollection<OrderDetail> Orders { get; set; }
     }
 }

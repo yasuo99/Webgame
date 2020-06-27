@@ -14,15 +14,19 @@ namespace DichVuGame.Models
         public string Gamename { get; set; }
         [Display(Name = "Poster game")]
         public string GamePoster { get; set; }
+        [Display(Name = "Mô tả game")]
+        public string GameDescription { get; set; }
         [Display(Name ="Năm phát hành")]
         public DateTime Release { get; set; }
         public int StudioID { get; set; }
         [ForeignKey("StudioID")]
         public virtual Studio Studio { get; set; }
         [Display(Name = "Giá")]
-        public int Price { get; set; }
-        [Display(Name = "Sẵn có")]
-        public int Available { get; set; }      
+        public double Price { get; set; }
+        [Display(Name = "Code sẵn có")]
+        public int AvailableCode { get; set; }     
+        [Display(Name = "Tài khoản sẵn có")]
+        public int AvailableAccount { get; set; }
         public string Alias { get; set; }
         public virtual SystemRequirement SystemRequirement { get; set; }
         public virtual ICollection<Code> Codes { get; set; }

@@ -15,15 +15,11 @@ namespace DichVuGame.Models
         public string ApplicationUserID { get; set;}
         [ForeignKey("ApplicationUserID")]
         public virtual ApplicationUser ApplicationUser { get; set; }
-        public int GameAccountID { get; set; }
-        [ForeignKey("GameAccountID")]
-        public virtual GameAccount GameAccount { get; set; }
-        [Display(Name = "Thời gian bắt đầu")]
-        public DateTime StartRenting { get; set; }
-        [Display(Name = "Thời gian kết thúc")]
-        public DateTime EndRenting { get; set; }
-        [Display(Name = "Thanh toán")]
-        public int Total { get; set; }
-        public bool OnGoing { get; set; }
+        public int? DiscountID { get; set; }
+        [ForeignKey("DiscountID")]
+        public Discount Discount { get; set; }
+        [Display(Name = "Tổng tiền")]
+        public double Total { get; set; }
+        public ICollection<RentalDetail> RentalDetails { get; set; }
     }
 }

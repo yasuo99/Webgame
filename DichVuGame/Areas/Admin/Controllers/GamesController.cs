@@ -73,7 +73,6 @@ namespace DichVuGame.Areas.Admin.Controllers
         public IActionResult Create()
         {
             ViewData["StudioID"] = new SelectList(_context.Studios, "ID", "Studioname");
-            ViewData["SystemRequirementID"] = new SelectList(_context.SystemRequirements, "ID", "ID");
             return View();
         }
 
@@ -86,50 +85,61 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Games.Add(GamesViewModel.Game);
-                await _context.SaveChangesAsync();
+                if(GameExists(GamesViewModel.Game.Gamename) == false)
+                {
+                    GamesViewModel.Game.AvailableCode = 0;
+                    GamesViewModel.Game.AvailableAccount = 0;
+                    _context.Games.Add(GamesViewModel.Game);
+                    await _context.SaveChangesAsync();
 
-                var gameFromDb = _context.Games.Find(GamesViewModel.Game.ID);
-                string webRootPath = _hostingEnvironment.WebRootPath;
-                var files = HttpContext.Request.Form.Files;
-                if(GamesViewModel.Tags != null)
-                {
-                    List<string> tags = HandingBareTag(GamesViewModel.Tags);
-                    foreach (var temptag in tags)
+                    var gameFromDb = _context.Games.Find(GamesViewModel.Game.ID);
+                    string webRootPath = _hostingEnvironment.WebRootPath;
+                    var files = HttpContext.Request.Form.Files;
+                    if (GamesViewModel.Tags != null)
                     {
-                        Tag tag = new Tag()
+                        List<string> tags = HandingBareTag(GamesViewModel.Tags);
+                        foreach (var temptag in tags)
                         {
-                            Tagname = temptag
-                        };
-                        _context.Tags.Add(tag);
-                        await _context.SaveChangesAsync();
-                        GameTag gameTag = new GameTag()
-                        {
-                            GameID = GamesViewModel.Game.ID,
-                            TagID = tag.ID
-                        };
-                        _context.GameTags.Add(gameTag);
-                        await _context.SaveChangesAsync();
+                            Tag tag = new Tag()
+                            {
+                                Tagname = temptag
+                            };
+                            _context.Tags.Add(tag);
+                            await _context.SaveChangesAsync();
+                            GameTag gameTag = new GameTag()
+                            {
+                                GameID = GamesViewModel.Game.ID,
+                                TagID = tag.ID
+                            };
+                            _context.GameTags.Add(gameTag);
+                            await _context.SaveChangesAsync();
+                        }
                     }
-                }
-                if (files.Count != 0)
-                {
-                    var uploads = Path.Combine(webRootPath, SD.GameImageFolder);
-                    var extension = Path.GetExtension(files[0].FileName);
-                    using (var fileStream = new FileStream(Path.Combine(uploads, GamesViewModel.Game.ID + extension), FileMode.Create))
+                    if (files.Count != 0)
                     {
-                        files[0].CopyTo(fileStream);
+                        var uploads = Path.Combine(webRootPath, SD.GameImageFolder);
+                        var extension = Path.GetExtension(files[0].FileName);
+                        using (var fileStream = new FileStream(Path.Combine(uploads, GamesViewModel.Game.ID + extension), FileMode.Create))
+                        {
+                            files[0].CopyTo(fileStream);
+                        }
+                        gameFromDb.GamePoster = @"\" + SD.GameImageFolder + @"\" + GamesViewModel.Game.ID + extension;
                     }
-                    gameFromDb.GamePoster = @"\" + SD.GameImageFolder + @"\" + GamesViewModel.Game.ID + extension;
+                    else
+                    {
+                        var uploads = Path.Combine(webRootPath, SD.GameImageFolder + @"\" + SD.DefaultGameImage);
+                        System.IO.File.Copy(uploads, webRootPath + @"\" + SD.GameImageFolder + @"\" + GamesViewModel.Game.ID + ".png");
+                        gameFromDb.GamePoster = @"\" + SD.GameImageFolder + @"\" + GamesViewModel.Game.ID + ".png";
+                    }
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 else
                 {
-                    var uploads = Path.Combine(webRootPath, SD.GameImageFolder + @"\" + SD.DefaultGameImage);
-                    System.IO.File.Copy(uploads, webRootPath + @"\" + SD.GameImageFolder + @"\" + GamesViewModel.Game.ID + ".png");
-                    gameFromDb.GamePoster = @"\" + SD.GameImageFolder + @"\" + GamesViewModel.Game.ID + ".png";
+                    ModelState.AddModelError("SameGame", "Đã có game này trên hệ thống");
+                    return View(GamesViewModel);
                 }
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                
             }
             ViewData["StudioID"] = new SelectList(_context.Studios, "ID", "Studioname", GamesViewModel.Game.StudioID);
             return View(GamesViewModel);
@@ -156,7 +166,7 @@ namespace DichVuGame.Areas.Admin.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost,ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditPOST(int id, [Bind("ID,Gamename,GamePoster,Release,StudioID,Price,Available")] Game game)
+        public async Task<IActionResult> EditPOST(int id, [Bind("ID,Gamename,GameDescription,GamePoster,Release,StudioID,Price,Available")] Game game)
         {
             if (id != game.ID)
             {
@@ -272,6 +282,10 @@ namespace DichVuGame.Areas.Admin.Controllers
                 tag.Add(temp.Trim());
             }
             return tag;
+        }
+        private bool GameExists(string gamename)
+        {
+            return _context.Games.Any(e => e.Gamename == gamename);
         }
     }
 }

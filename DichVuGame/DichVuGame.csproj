@@ -18,6 +18,28 @@
     <Compile Remove="Migrations\20200612153452_init.Designer.cs" />
     <Compile Remove="Migrations\20200621093934_init.cs" />
     <Compile Remove="Migrations\20200621093934_init.Designer.cs" />
+    <Compile Remove="Migrations\20200621100027_init.cs" />
+    <Compile Remove="Migrations\20200621100027_init.Designer.cs" />
+    <Compile Remove="Migrations\20200624005828_init.cs" />
+    <Compile Remove="Migrations\20200624005828_init.Designer.cs" />
+    <Compile Remove="Migrations\20200624010108_init.cs" />
+    <Compile Remove="Migrations\20200624010108_init.Designer.cs" />
+    <Compile Remove="Migrations\20200624021617_init.cs" />
+    <Compile Remove="Migrations\20200624021617_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626032948_init.cs" />
+    <Compile Remove="Migrations\20200626032948_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626090947_init.cs" />
+    <Compile Remove="Migrations\20200626090947_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626091633_init.cs" />
+    <Compile Remove="Migrations\20200626091633_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626093933_init.cs" />
+    <Compile Remove="Migrations\20200626093933_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626095332_init.cs" />
+    <Compile Remove="Migrations\20200626095332_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626105623_init.cs" />
+    <Compile Remove="Migrations\20200626105623_init.Designer.cs" />
+    <Compile Remove="Migrations\20200626115622_init.cs" />
+    <Compile Remove="Migrations\20200626115622_init.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +61,46 @@
   <ItemGroup>
     <Folder Include="Data\Migrations\" />
     <Folder Include="wwwroot\videos\GameDemo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\.gitignore" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\.travis.yml" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\gulpfile.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\LICENSE" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\README.md" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\jquery\jquery.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\jquery\jquery.min.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\jquery\jquery.min.map" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\jquery\jquery.slim.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\jquery\jquery.slim.min.js" />
+    <None Include="wwwroot\homepage\startbootstrap-shop-homepage-gh-pages\vendor\jquery\jquery.slim.min.map" />
+    <None Include="wwwroot\login_lt\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\login_lt\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\menu_lt\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\menu_lt\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\menu_lt\js\all.js" />
+    <None Include="wwwroot\menu_lt\js\app.js" />
+    <None Include="wwwroot\menu_lt\js\bootstrap.min.js" />
+    <None Include="wwwroot\menu_lt\js\jquery-1.7.2.js" />
+    <None Include="wwwroot\menu_lt\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\menu_lt\js\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\menu_lt\js\popper.min.js" />
+    <None Include="wwwroot\spinwheel\spin.js" />
   </ItemGroup>
 
 </Project>

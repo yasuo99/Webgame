@@ -68,28 +68,36 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(studio);
-                await _context.SaveChangesAsync();
-                var webRootPath = _hostEnvironment.WebRootPath;
-                var files = HttpContext.Request.Form.Files;
-                if (files.Count > 0)
+                if (StudioExists(studio.Studioname))
                 {
-                    var path = Path.Combine(webRootPath, SD.StudioImageFolder);
-                    var extension = Path.GetExtension(files[0].FileName);
-                    using (var fileStream = new FileStream(Path.Combine(path, studio.ID + extension), FileMode.Create))
+                    _context.Add(studio);
+                    await _context.SaveChangesAsync();
+                    var webRootPath = _hostEnvironment.WebRootPath;
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Count > 0)
                     {
-                        files[0].CopyTo(fileStream);
+                        var path = Path.Combine(webRootPath, SD.StudioImageFolder);
+                        var extension = Path.GetExtension(files[0].FileName);
+                        using (var fileStream = new FileStream(Path.Combine(path, studio.ID + extension), FileMode.Create))
+                        {
+                            files[0].CopyTo(fileStream);
+                        }
+                        studio.StudioLogo = @"\" + SD.StudioImageFolder + @"\" + studio.ID + extension;
                     }
-                    studio.StudioLogo = @"\" + SD.StudioImageFolder + @"\" + studio.ID + extension;
+                    else
+                    {
+                        var path = Path.Combine(webRootPath, SD.DefaultStudioImage);
+                        System.IO.File.Copy(path, webRootPath + @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg");
+                        studio.StudioLogo = @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg";
+                    }
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 else
                 {
-                    var path = Path.Combine(webRootPath, SD.DefaultStudioImage);
-                    System.IO.File.Copy(path, webRootPath + @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg");
-                    studio.StudioLogo = @"\" + SD.StudioImageFolder + @"\" + studio.ID + ".jpeg";
+                    ModelState.AddModelError("SameStudio", "Studio đã có trên hệ thống");
+                    return View(studio);
                 }
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
             }
             ViewData["CountryID"] = new SelectList(_context.Countries, "ID", "ID", studio.CountryID);
             return View(studio);
@@ -199,6 +207,10 @@ namespace DichVuGame.Areas.Admin.Controllers
         private bool StudioExists(int id)
         {
             return _context.Studios.Any(e => e.ID == id);
+        }
+        private bool StudioExists(string studioname)
+        {
+            return _context.Studios.Any(e => e.Studioname == studioname);
         }
     }
 }

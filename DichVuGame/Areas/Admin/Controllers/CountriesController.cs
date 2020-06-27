@@ -59,9 +59,17 @@ namespace DichVuGame.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(country);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if(SameCountry(country.Countryname) == false)
+                {
+                    _context.Add(country);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    ModelState.AddModelError("SameCountry", "Quốc gia đã có");
+                    return View(country);
+                }
             }
             return View(country);
         }
@@ -149,6 +157,10 @@ namespace DichVuGame.Areas.Admin.Controllers
         private bool CountryExists(int id)
         {
             return _context.Countries.Any(e => e.ID == id);
+        }
+        private bool SameCountry(string countryname)
+        {
+            return _context.Countries.Any(e => e.Countryname == countryname);
         }
     }
 }

@@ -13,6 +13,7 @@ namespace DichVuGame.Data
             : base(options)
         {
         }
+        public DbSet<Banner> Banners { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers  { get; set; }
         public DbSet<TopupHistory> TopupHistories { get; set; }
@@ -30,12 +31,17 @@ namespace DichVuGame.Data
         public DbSet<Review> Reviews { get; set; }
         public DbSet<GameComment> GameComments { get; set; }
         public DbSet<GameReview> GameReviews { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<RentalDetail> RentalDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<GameTag>().HasKey(key => new { key.GameID, key.TagID });
             modelBuilder.Entity<GameReview>().HasKey(key => new { key.GameID, key.ReviewID });
             modelBuilder.Entity<GameComment>().HasKey(key => new { key.GameID, key.CommentID });
+            modelBuilder.Entity<OrderDetail>().HasKey(key => new { key.OrderID, key.CodeID });
+            modelBuilder.Entity<RentalDetail>().HasKey(key => new { key.RentalHistoryID, key.GameAccountID });
         }
+        public DbSet<DichVuGame.Models.Discount> Discount { get; set; }
     }
 }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using DichVuGame.Data;
 using DichVuGame.Models;
 using DichVuGame.Utility;
 using MailKit.Net.Smtp;
@@ -29,19 +30,20 @@ namespace DichVuGame.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
-
+        private readonly ApplicationDbContext _db;
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,ApplicationDbContext db)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
             _roleManager = roleManager;
+            _db = db;
         }
 
         [BindProperty]
@@ -81,7 +83,8 @@ namespace DichVuGame.Areas.Identity.Pages.Account
             public string Address { get; set; }
             [Display(Name = "Tài khoản quản lý")]
             public bool IsManager { get; set; }
-
+            [Display(Name = "Tài khoản CSKH")]
+            public bool IsCustomerCare { get; set; }
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -96,60 +99,77 @@ namespace DichVuGame.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Fullname = Input.Fullname, PhoneNumber = Input.Phone, Address = Input.Address, User = Input.Username, Sex = Input.Sex };
-                var result = await _userManager.CreateAsync(user, Input.Password);
-                if (result.Succeeded)
+                if(SameUser(Input.Username) == false)
                 {
-                    if (!await _roleManager.RoleExistsAsync(Helper.ADMIN_ROLE))
+                    var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Fullname = Input.Fullname, PhoneNumber = Input.Phone, Address = Input.Address, User = Input.Username, Sex = Input.Sex };
+                    var result = await _userManager.CreateAsync(user, Input.Password);
+                    if (result.Succeeded)
                     {
-                        await _roleManager.CreateAsync(new IdentityRole(Helper.ADMIN_ROLE));
-                    }
-                    if (!await _roleManager.RoleExistsAsync(Helper.MANAGER_ROLE))
-                    {
-                        await _roleManager.CreateAsync(new IdentityRole(Helper.MANAGER_ROLE));
-                    }
-                    if (!await _roleManager.RoleExistsAsync(Helper.CUSTOMER_ROLE))
-                    {
-                        await _roleManager.CreateAsync(new IdentityRole(Helper.CUSTOMER_ROLE));
-                    }
-                    if (Input.IsManager)
-                    {
-                        await _userManager.AddToRoleAsync(user, Helper.MANAGER_ROLE);
-                    }
-                    else
-                    {
-                        await _userManager.AddToRoleAsync(user, Helper.CUSTOMER_ROLE);
-                    }
-                    await _userManager.UpdateAsync(user);
-                    _logger.LogInformation("User created a new account with password.");
-                    string confirmationToken = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
-                    string confirmationLink = Url.Action("ConfirmEmail",
-                        "AccountConfirm", new { userId = user.Id, token = confirmationToken },
-                        protocol: HttpContext.Request.Scheme);
+                        if (!await _roleManager.RoleExistsAsync(Helper.ADMIN_ROLE))
+                        {
+                            await _roleManager.CreateAsync(new IdentityRole(Helper.ADMIN_ROLE));
+                        }
+                        if (!await _roleManager.RoleExistsAsync(Helper.MANAGER_ROLE))
+                        {
+                            await _roleManager.CreateAsync(new IdentityRole(Helper.MANAGER_ROLE));
+                        }
+                        if (!await _roleManager.RoleExistsAsync(Helper.CUSTOMER_ROLE))
+                        {
+                            await _roleManager.CreateAsync(new IdentityRole(Helper.CUSTOMER_ROLE));
+                        }
+                        if (Input.IsManager)
+                        {
+                            await _userManager.AddToRoleAsync(user, Helper.MANAGER_ROLE);
+                        }
+                        else if(Input.IsCustomerCare)
+                        {
+                            await _userManager.AddToRoleAsync(user, Helper.CUSTOMERCARE_ROLE);
+                        }    
+                        else
+                        {
+                            await _userManager.AddToRoleAsync(user, Helper.CUSTOMER_ROLE);
+                        }
+                        await _userManager.UpdateAsync(user);
+                        _logger.LogInformation("User created a new account with password.");
+                        string confirmationToken = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
+                        string confirmationLink = Url.Action("ConfirmEmail",
+                            "AccountConfirm", new { userId = user.Id, token = confirmationToken },
+                            protocol: HttpContext.Request.Scheme);
 
-                    using (SmtpClient client = new SmtpClient())
+                        using (SmtpClient client = new SmtpClient())
+                        {
+                            var message = new MimeMessage();
+                            message.From.Add(new MailboxAddress("GameProvider", "yasuo12091999@gmail.com"));
+                            message.To.Add(new MailboxAddress("Not Reply", user.Email));
+                            message.Subject = "Confirm your email and be with us";
+                            message.Body = new TextPart(MimeKit.Text.TextFormat.Text)
+                            { Text = "You have register an account, using this your email: " + user.Email + " and password: "+Input.Password + " to login " + Environment.NewLine + confirmationLink };
+
+                            client.Connect("smtp.gmail.com", 465, true);
+                            client.Authenticate("yasuo120999@gmail.com", "Thanhpro1999@");
+                            client.Send(message);
+                            client.Disconnect(true);
+                            return RedirectToPage("Login");
+                        }
+                    }
+                    foreach (var error in result.Errors)
                     {
-                        var message = new MimeMessage();
-                        message.From.Add(new MailboxAddress("GameProvider", "yasuo12091999@gmail.com"));
-                        message.To.Add(new MailboxAddress("Not Reply", user.Email));
-                        message.Subject = "Confirm your email and be with us";
-                        message.Body = new TextPart(MimeKit.Text.TextFormat.Text)
-                        { Text = "You have register an account, using this your email: " + user.Email + " and registed password to login " + Environment.NewLine + confirmationLink };
-                        client.Connect("smtp.gmail.com", 465, true);
-                        client.Authenticate("yasuo120999@gmail.com","Thanhpro1999@");
-                        client.Send(message); 
-                        client.Disconnect(true);
-                        return RedirectToPage("Login");
+                        ModelState.AddModelError(string.Empty, error.Description);
                     }
                 }
-                foreach (var error in result.Errors)
+                else
                 {
-                    ModelState.AddModelError(string.Empty, error.Description);
+                    ModelState.AddModelError("SameUsername", "Tài khoản đã được đăng ký");
+                    return Page();
                 }
             }
 
             // If we got this far, something failed, redisplay form
             return Page();
+        }
+        private bool SameUser(string username)
+        {
+            return _db.ApplicationUsers.Any(u => u.User == username);
         }
     }
 }

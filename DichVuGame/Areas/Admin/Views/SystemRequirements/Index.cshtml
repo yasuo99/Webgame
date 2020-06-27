@@ -1,0 +1,81 @@
+﻿@model IEnumerable<DichVuGame.Models.SystemRequirement>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminHome/_CMSLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<div class="row">
+    <div class="col-6">Danh sách cấu hình hệ thống</div>
+    <div class="col-6 text-right"><a class="btn btn-primary" asp-area="Admin" asp-controller="SystemRequirements" asp-action="Create">Thêm cấu hình cho game</a></div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Processor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ram)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Graphic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DirectX)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Network)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Storage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Processor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ram)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Graphic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirectX)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Network)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Storage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Game.ID)
+            </td>
+            <td>
+                <div class="btn-group">
+                    <a type="button" class="btn btn-success" asp-action="Edit" asp-controller="SystemRequirements" asp-route-id="@item.SystemRequirementID"><i class="fas fa-edit"></i></a>
+                    <a type="button" class="btn btn-info" asp-action="Details" asp-controller="SystemRequirements" asp-route-id="@item.SystemRequirementID"><i class="far fa-list-alt"></i></a>
+                    <a type="button" class="btn btn-danger" asp-action="Delete" asp-controller="SystemRequirements" asp-route-id="@item.SystemRequirementID"><i class="fas fa-trash-alt"></i></a>
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
