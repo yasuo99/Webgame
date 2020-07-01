@@ -34,7 +34,6 @@ namespace DichVuGame.Controllers
                 Game = new Game(),
                 Games = new List<Game>(),
                 GameTags = new List<GameTag>(),
-                GameDemos = new List<GameDemo>(),
                 ApplicationUser = new ApplicationUser(),
                 Comments = new List<Comment>(),
                 Reviews = new List<Review>(),

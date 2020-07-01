@@ -7,11 +7,9 @@ namespace DichVuGame.Models
 {
     public class Discount
     {
-        public int ID { get; set; } 
-        public string DiscountCode { get; set; }
-        public double DiscountValue { get; set; }
-        public int Amount { get; set; }
-        public ICollection<Order> Orders { get; set; }
-        public ICollection<RentalHistory> RentalHistories { get; set; }
+        public int ID { get; set; }
+        public string Code { get; set; }
+        public int DiscountValue { get; set; }
+        public bool Available { get; set; }
     }
 }

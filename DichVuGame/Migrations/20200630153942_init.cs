@@ -85,13 +85,41 @@ namespace DichVuGame.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DiscountCode = table.Column<string>(nullable: true),
-                    DiscountValue = table.Column<double>(nullable: false),
-                    Amount = table.Column<int>(nullable: false)
+                    Code = table.Column<string>(nullable: true),
+                    DiscountValue = table.Column<int>(nullable: false),
+                    Available = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Discount", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Launchers",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Launchername = table.Column<string>(nullable: true),
+                    Downloadlink = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Launchers", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "News",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(nullable: true),
+                    Content = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_News", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -338,13 +366,22 @@ namespace DichVuGame.Migrations
                     Release = table.Column<DateTime>(nullable: false),
                     StudioID = table.Column<int>(nullable: false),
                     Price = table.Column<double>(nullable: false),
+                    RentalPrice = table.Column<double>(nullable: false),
                     AvailableCode = table.Column<int>(nullable: false),
                     AvailableAccount = table.Column<int>(nullable: false),
-                    Alias = table.Column<string>(nullable: true)
+                    Alias = table.Column<string>(nullable: true),
+                    IsPublish = table.Column<bool>(nullable: false),
+                    LauncherID = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Games", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Games_Launchers_LauncherID",
+                        column: x => x.LauncherID,
+                        principalTable: "Launchers",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Games_Studios_StudioID",
                         column: x => x.StudioID,
@@ -375,27 +412,6 @@ namespace DichVuGame.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Demos",
-                columns: table => new
-                {
-                    ID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    GameID = table.Column<int>(nullable: false),
-                    Demo = table.Column<string>(nullable: true),
-                    IsVideo = table.Column<bool>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Demos", x => x.ID);
-                    table.ForeignKey(
-                        name: "FK_Demos_Games_GameID",
-                        column: x => x.GameID,
-                        principalTable: "Games",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "GameAccounts",
                 columns: table => new
                 {
@@ -404,7 +420,6 @@ namespace DichVuGame.Migrations
                     GameID = table.Column<int>(nullable: false),
                     Username = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true),
-                    Price = table.Column<double>(nullable: false),
                     Available = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
@@ -438,6 +453,30 @@ namespace DichVuGame.Migrations
                         name: "FK_GameComments_Games_GameID",
                         column: x => x.GameID,
                         principalTable: "Games",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "GameLaunchers",
+                columns: table => new
+                {
+                    LauncherID = table.Column<int>(nullable: false),
+                    GameID = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GameLaunchers", x => new { x.LauncherID, x.GameID });
+                    table.ForeignKey(
+                        name: "FK_GameLaunchers_Games_GameID",
+                        column: x => x.GameID,
+                        principalTable: "Games",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_GameLaunchers_Launchers_LauncherID",
+                        column: x => x.LauncherID,
+                        principalTable: "Launchers",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -498,8 +537,8 @@ namespace DichVuGame.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ApplicationUserID = table.Column<string>(nullable: true),
                     PurchasedDate = table.Column<DateTime>(nullable: false),
-                    DiscountID = table.Column<int>(nullable: true),
                     Total = table.Column<double>(nullable: false),
+                    DiscountID = table.Column<int>(nullable: true),
                     GameID = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
@@ -650,11 +689,6 @@ namespace DichVuGame.Migrations
                 column: "ApplicationUserID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Demos_GameID",
-                table: "Demos",
-                column: "GameID");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_GameAccounts_GameID",
                 table: "GameAccounts",
                 column: "GameID");
@@ -665,9 +699,19 @@ namespace DichVuGame.Migrations
                 column: "CommentID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_GameLaunchers_GameID",
+                table: "GameLaunchers",
+                column: "GameID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_GameReviews_ReviewID",
                 table: "GameReviews",
                 column: "ReviewID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Games_LauncherID",
+                table: "Games",
+                column: "LauncherID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Games_StudioID",
@@ -751,16 +795,19 @@ namespace DichVuGame.Migrations
                 name: "Banners");
 
             migrationBuilder.DropTable(
-                name: "Demos");
+                name: "GameComments");
 
             migrationBuilder.DropTable(
-                name: "GameComments");
+                name: "GameLaunchers");
 
             migrationBuilder.DropTable(
                 name: "GameReviews");
 
             migrationBuilder.DropTable(
                 name: "GameTags");
+
+            migrationBuilder.DropTable(
+                name: "News");
 
             migrationBuilder.DropTable(
                 name: "OrderDetails");
@@ -806,6 +853,9 @@ namespace DichVuGame.Migrations
 
             migrationBuilder.DropTable(
                 name: "Discount");
+
+            migrationBuilder.DropTable(
+                name: "Launchers");
 
             migrationBuilder.DropTable(
                 name: "Studios");

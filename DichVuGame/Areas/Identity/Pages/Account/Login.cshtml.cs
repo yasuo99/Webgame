@@ -14,6 +14,10 @@ using Microsoft.Extensions.Logging;
 using DichVuGame.Data;
 using Microsoft.EntityFrameworkCore;
 using DichVuGame.Utility;
+using MailKit.Net.Smtp;
+using MimeKit;
+using DichVuGame.Extensions;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace DichVuGame.Areas.Identity.Pages.Account
 {
@@ -83,16 +87,41 @@ namespace DichVuGame.Areas.Identity.Pages.Account
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
+                var user = await _db.ApplicationUsers.Where(u => u.Email == Input.Email).FirstOrDefaultAsync();
+                var result = await _signInManager.CheckPasswordSignInAsync(user, Input.Password, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
-                    var user = await _db.ApplicationUsers.Where(u => u.Email == Input.Email).FirstOrDefaultAsync();
                     if(await _userManager.IsInRoleAsync(user,Helper.ADMIN_ROLE) || await _userManager.IsInRoleAsync(user, Helper.CUSTOMERCARE_ROLE)|| await _userManager.IsInRoleAsync(user, Helper.MANAGER_ROLE)|| await _userManager.IsInRoleAsync(user, Helper.MRHAI_ROLE))
                     {
                         return RedirectToAction("Index", "AdminHome", new { area = "Admin"});
-                    }    
-                    _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
+                    }
+                    var otpFromSession = HttpContext.Session.Get<OTPSession>("OTP");
+                    if(DateTime.Now.CompareTo(otpFromSession) > 0)
+                    {
+                        var randomOtp = new Random().Next(10000,99999);
+                        OTPSession otpSession = new OTPSession(randomOtp, DateTime.Now.AddMinutes(5),Input.Email,Input.Password);
+                        HttpContext.Session.Set("OTP", otpSession);
+                        using (SmtpClient client = new SmtpClient())
+                        {
+                            var message = new MimeMessage();
+                            message.From.Add(new MailboxAddress("GameProvider", "yasuo12091999@gmail.com"));
+                            message.To.Add(new MailboxAddress("Không trả lời", user.Email));
+                            message.Subject = "Xác thực OTP";
+                            message.Body = new TextPart(MimeKit.Text.TextFormat.Text)
+                            { Text = "Chúng tôi nhận thấy bạn vừa thực hiện đăng nhập, vui lòng sử dụng mã OTP được cung cấp để xác thực!" + Environment.NewLine + "Mã OTP: " + randomOtp + 
+                            Environment.NewLine + "Thời gian hiệu lực OTP: 5 phút."};
+                            client.Connect("smtp.gmail.com", 465, true);
+                            client.Authenticate("yasuo120999@gmail.com", "Thanhpro1999@");
+                            client.Send(message);
+                            client.Disconnect(true);
+                            return RedirectToPage("OTPConfirm");
+                        }
+                    }
+                    else if(DateTime.Now.CompareTo(otpFromSession) < 0)
+                    {
+                        ModelState.AddModelError("OTPRequire", "Mã OTP đã được gửi");
+                        return RedirectToPage("OTPConfirm");
+                    }
                 }
                 if (result.RequiresTwoFactor)
                 {

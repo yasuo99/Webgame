@@ -195,24 +195,7 @@ namespace DichVuGame.Areas.Customer.Controllers
             };
             var user = await _db.ApplicationUsers.Where(u => u.Email == User.Identity.Name).FirstOrDefaultAsync();
             var sum1 = lstCart.Sum(u => u.Amount * u.Game.Price);
-            var discount = _db.Discount.Where(u => u.DiscountCode.Equals(Discount)).FirstOrDefault();
-            if (SuperCartViewModel.GameDiscount)
-            {
-                if (discount != null)
-                {
-                    sum1 -= (sum1 * discount.DiscountValue) / 100;
-                    discount.Amount -= 1;
-                }
-            }
             var sum2 = lstCart.Sum(u => u.Amount * (u.Game.Price * 0.1));
-            if (SuperCartViewModel.AccountDiscount)
-            {
-                if(discount != null)
-                {
-                    sum2 -= (sum2 * discount.DiscountValue) / 100;
-                    discount.Amount -= 1;
-                }
-            }    
             if (user.Balance >= (sum1 + sum2))
             {
                 Order order = new Order()

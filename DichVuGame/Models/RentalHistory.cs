@@ -15,6 +15,7 @@ namespace DichVuGame.Models
         public string ApplicationUserID { get; set;}
         [ForeignKey("ApplicationUserID")]
         public virtual ApplicationUser ApplicationUser { get; set; }
+        [Display(Name = "Mã giảm giá")]
         public int? DiscountID { get; set; }
         [ForeignKey("DiscountID")]
         public Discount Discount { get; set; }

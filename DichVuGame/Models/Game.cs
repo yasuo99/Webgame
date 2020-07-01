@@ -23,17 +23,19 @@ namespace DichVuGame.Models
         public virtual Studio Studio { get; set; }
         [Display(Name = "Giá")]
         public double Price { get; set; }
+        [Display(Name = "Giá cho thuê/h")]
+        public double RentalPrice { get; set; }
         [Display(Name = "Code sẵn có")]
         public int AvailableCode { get; set; }     
         [Display(Name = "Tài khoản sẵn có")]
         public int AvailableAccount { get; set; }
         public string Alias { get; set; }
+        public bool IsPublish { get; set; }
         public virtual SystemRequirement SystemRequirement { get; set; }
         public virtual ICollection<Code> Codes { get; set; }
         public virtual ICollection<GameTag> GameTags { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
         public virtual ICollection<GameAccount> GameAccounts { get; set; }
-        public virtual ICollection<GameDemo> GameDemos { get; set; }
         public virtual ICollection<GameReview> Reviews { get; set; }
         public virtual ICollection<GameComment> Comments { get; set; }
     }

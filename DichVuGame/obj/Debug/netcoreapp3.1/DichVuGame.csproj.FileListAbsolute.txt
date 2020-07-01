@@ -1629,3 +1629,897 @@ C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Ra
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Index.cshtml.g.cs
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Create.cshtml.g.cs
 C:\Users\Minh Khue PC\Desktop\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\SpinWheel.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\appsettings.json
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.StaticWebAssets.xml
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.exe
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.deps.json
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.runtimeconfig.json
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.runtimeconfig.dev.json
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.pdb
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.Views.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.Views.pdb
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MailKit.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MimeKit.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\PayPal.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csprojAssemblyReference.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfoInputs.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfo.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CoreCompileInputs.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.input.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.output.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorCoreGenerate.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminHome\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminHome\_CMSLayout.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApplicationUser\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameDemos\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameDemos\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Checkout.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\SpinWheel.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\FailureView.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\SuccessfulView.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\RentAccount\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Create.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Delete.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Details.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Edit.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\_ViewImports.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\_ViewStart.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Balance\Default.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Username\Default.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorTargetAssemblyInfo.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorTargetAssemblyInfo.cs
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.Views.pdb
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CopyComplete
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebassets\DichVuGame.StaticWebAssets.Manifest.cache
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebassets\DichVuGame.StaticWebAssets.xml
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.dll
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.pdb
+E:\TMDT\Doancuoiky\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.genruntimeconfig.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.StaticWebAssets.xml
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.exe
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.deps.json
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.runtimeconfig.json
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.runtimeconfig.dev.json
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.pdb
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.Views.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.Views.pdb
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\PayPal.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csprojAssemblyReference.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfoInputs.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfo.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CoreCompileInputs.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.input.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.output.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorCoreGenerate.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminHome\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminHome\_CMSLayout.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApplicationUser\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Checkout.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\SpinWheel.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\FailureView.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\SuccessfulView.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\RentAccount\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\_ViewImports.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\_ViewStart.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Balance\Default.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Username\Default.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorTargetAssemblyInfo.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorTargetAssemblyInfo.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.Views.pdb
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CopyComplete
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebassets\DichVuGame.StaticWebAssets.Manifest.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebassets\DichVuGame.StaticWebAssets.xml
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.dll
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.pdb
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.genruntimeconfig.cache
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Create.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Delete.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Details.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Edit.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Index.cshtml.g.cs
+C:\Users\Minh Khue PC\Documents\Frontend\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Spinwheel\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csprojAssemblyReference.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfoInputs.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.AssemblyInfo.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CoreCompileInputs.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.MvcApplicationPartsAssemblyInfo.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorAssemblyInfo.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.pdb
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.StaticWebAssets.xml
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.exe
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.deps.json
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.runtimeconfig.json
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.runtimeconfig.dev.json
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.pdb
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.Views.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\DichVuGame.Views.pdb
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MailKit.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\MimeKit.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\PayPal.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.input.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.TagHelpers.output.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorCoreGenerate.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminHome\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminHome\_CMSLayout.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApplicationUser\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Codes\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Countries\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Discounts\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\GameAccounts\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Games\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\News\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Orders\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Studios\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SystemRequirements\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tags\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Checkout.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Comments\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\SpinWheel.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\FailureView.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Paypal\SuccessfulView.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\RentAccount\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Create.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Delete.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Details.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Edit.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Reviews\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Spinwheel\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\_ViewImports.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\_ViewStart.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\OTPConfirm.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Balance\Default.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Username\Default.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SearchPartial.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorTargetAssemblyInfo.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.RazorTargetAssemblyInfo.cs
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.Views.pdb
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.csproj.CopyComplete
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebassets\DichVuGame.StaticWebAssets.Manifest.cache
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\staticwebassets\DichVuGame.StaticWebAssets.xml
+D:\Must save\WebGame_TMDT-20200701T023531Z-001\WebGame_TMDT\DichVuGame\obj\Debug\netcoreapp3.1\DichVuGame.genruntimeconfig.cache

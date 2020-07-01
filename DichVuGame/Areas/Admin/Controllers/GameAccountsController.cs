@@ -75,7 +75,6 @@ namespace DichVuGame.Areas.Admin.Controllers
                     GameAccountVM.GameAccount.GameID = GameAccountVM.Game.ID;
                     _context.Add(GameAccountVM.GameAccount);
                     var game = await _context.Games.FindAsync(GameAccountVM.Game.ID);
-                    GameAccountVM.GameAccount.Price = game.Price * 0.1;
                     game.AvailableAccount += 1;
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
